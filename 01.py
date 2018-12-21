@@ -14,7 +14,7 @@ print(id(test.name))
 
 print("*" * 20)
 
-# t 代表test的一类中一个具体的对象  即对象的实例
+# t 代表test的一类中一个具体的对象  即对象的实例~
 t =  test()
 
 print(t.name)
