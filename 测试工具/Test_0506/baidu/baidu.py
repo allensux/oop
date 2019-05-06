@@ -7,6 +7,7 @@ from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import NoSuchElementException
 import unittest, time, re
 
+
 class Baidu(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
