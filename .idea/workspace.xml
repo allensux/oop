@@ -66,7 +66,7 @@
     <session id="834061524">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="30" />
+          <entry key="project.closed" value="31" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.115" value="1" />
@@ -119,14 +119,14 @@
           <entry key="md" value="365" />
           <entry key="py" value="10879" />
           <entry key="sql" value="26" />
-          <entry key="txt" value="5" />
+          <entry key="txt" value="8" />
           <entry key="xml" value="125" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="365" />
-          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="PLAIN_TEXT" value="24" />
           <entry key="Python" value="10879" />
           <entry key="Scratch" value="26" />
           <entry key="XML" value="125" />
@@ -325,8 +325,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="144" />
-    <option name="y" value="42" />
+    <option name="x" value="264" />
+    <option name="y" value="67" />
     <option name="width" value="1497" />
     <option name="height" value="970" />
   </component>
@@ -393,7 +393,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -682,9 +682,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="144" y="42" width="1497" height="970" extended-state="0" />
+    <frame x="264" y="67" width="1497" height="970" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7009009" visible="true" weight="0.18371607" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7009009" visible="true" weight="0.28462073" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.2990991" side_tool="true" weight="0.23802613" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -695,7 +696,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49960908" weight="0.32992035" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.61934584" visible="true" weight="0.34449762" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.61934584" visible="true" weight="0.34449762" />
       <window_info anchor="bottom" id="Database Changes" order="9" sideWeight="0.49965206" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.38065413" side_tool="true" visible="true" weight="0.34449762" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49854863" weight="0.2543554" />
