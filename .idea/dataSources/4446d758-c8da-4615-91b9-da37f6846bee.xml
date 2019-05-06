@@ -1,0 +1,1496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Oracle-@10.10.171.249">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.11">
+    <root id="1">
+      <ServerVersion>11.2.0.4</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="BBARTM">
+      <ObjectId>84</ObjectId>
+      <CreatedTimestamp>2018-04-26.18:45:46</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-20.00:13:36</ModifiedTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DIP">
+      <ObjectId>14</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="ORACLE_OCM">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DBSNMP">
+      <ObjectId>30</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="APPQOSSYS">
+      <ObjectId>31</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="WMSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="EXFSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="CTXSYS">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="XDB">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="ANONYMOUS">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="ORDSYS">
+      <ObjectId>53</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="ORDDATA">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="ORDPLUGINS">
+      <ObjectId>55</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>56</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="MDSYS">
+      <ObjectId>57</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="OLAPSYS">
+      <ObjectId>60</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="MDDATA">
+      <ObjectId>64</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="SPATIAL_WFS_ADMIN_USR">
+      <ObjectId>66</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="SPATIAL_CSW_ADMIN_USR">
+      <ObjectId>69</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="SYSMAN">
+      <ObjectId>71</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="MGMT_VIEW">
+      <ObjectId>73</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="FLOWS_FILES">
+      <ObjectId>74</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>75</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="APEX_030200">
+      <ObjectId>77</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="OWBSYS">
+      <ObjectId>78</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="OWBSYS_AUDIT">
+      <ObjectId>79</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="SCOTT">
+      <ObjectId>83</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="BBARTM_TEST">
+      <ObjectId>85</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="BBA_CONSOLE">
+      <ObjectId>86</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <sequence id="36" parent="2" name="Q">
+      <ObjectId>93001</ObjectId>
+      <CreatedTimestamp>2018-09-18.02:37:03</CreatedTimestamp>
+      <ModifiedTimestamp>2018-09-18.02:37:03</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="37" parent="2" name="QQ">
+      <ObjectId>93002</ObjectId>
+      <CreatedTimestamp>2018-09-18.02:37:23</CreatedTimestamp>
+      <ModifiedTimestamp>2018-09-18.02:37:23</ModifiedTimestamp>
+      <SequenceIdentity>1+1000</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="38" parent="2" name="SEQ_TQ_AUTH_RULE">
+      <ObjectId>93000</ObjectId>
+      <CreatedTimestamp>2018-09-18.02:36:38</CreatedTimestamp>
+      <ModifiedTimestamp>2018-09-18.02:36:38</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <table id="39" parent="2" name="ALERT_LOGS">
+      <ObjectId>90859</ObjectId>
+      <CreatedTimestamp>2018-07-03.17:28:06</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.17:28:06</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="40" parent="2" name="BATTERY_BIT_DETAILED_LOG">
+      <ObjectId>96571</ObjectId>
+      <CreatedTimestamp>2019-02-16.03:46:40</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-20.20:55:10</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="41" parent="2" name="BATTERY_BIT_LOG">
+      <ObjectId>96677</ObjectId>
+      <CreatedTimestamp>2019-02-20.20:50:42</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-20.21:07:26</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="42" parent="2" name="BATTERY_VEHICLE_PRODUCTION_TMP">
+      <ObjectId>91095</ObjectId>
+      <CreatedTimestamp>2018-07-12.17:57:41</CreatedTimestamp>
+      <ModifiedTimestamp>2018-10-08.23:24:24</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="43" parent="2" name="BCT_CATL_FILEREAD_HISTORY">
+      <ObjectId>98015</ObjectId>
+      <CreatedTimestamp>2019-04-02.19:08:54</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-02.19:17:34</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="44" parent="2" name="BCT_IPM_ERROR_MESSAGE">
+      <ObjectId>97228</ObjectId>
+      <CreatedTimestamp>2019-03-14.01:27:45</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-02.19:02:52</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="45" parent="2" name="BCT_IPM_PRODUCT_MESSAGE">
+      <ObjectId>97226</ObjectId>
+      <CreatedTimestamp>2019-03-14.00:43:52</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-02.19:03:07</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="46" parent="2" name="BCT_IPM_UNBIND_MESSAGE">
+      <ObjectId>97227</ObjectId>
+      <CreatedTimestamp>2019-03-14.01:09:40</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-02.19:03:19</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="47" parent="2" name="BCT_MQS_MESSAGE">
+      <ObjectId>97679</ObjectId>
+      <CreatedTimestamp>2019-03-27.17:15:08</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-27.17:15:08</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="48" parent="2" name="BCT_MQS_PARAMETER">
+      <ObjectId>96819</ObjectId>
+      <CreatedTimestamp>2019-02-25.18:22:19</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-26.00:11:13</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="49" parent="2" name="BCT_VEHICLE_EXPORT_TEMP">
+      <ObjectId>96035</ObjectId>
+      <CreatedTimestamp>2019-01-21.22:22:13</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-05.22:08:07</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="50" parent="2" name="BCT_VEHICLE_SALES_STATISTICS">
+      <ObjectId>97510</ObjectId>
+      <CreatedTimestamp>2019-03-22.18:23:09</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-22.18:57:22</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="51" parent="2" name="BMW_PACK_NOV_1">
+      <ObjectId>95488</ObjectId>
+      <CreatedTimestamp>2018-12-28.23:16:18</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-28.23:16:18</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="52" parent="2" name="CAR_REMOTE_CONTROL_LOG">
+      <ObjectId>90860</ObjectId>
+      <CreatedTimestamp>2018-07-03.17:28:06</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.17:28:06</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="53" parent="2" name="CAR_REMOTE_CONTROL_STATUS_LOG">
+      <ObjectId>90861</ObjectId>
+      <CreatedTimestamp>2018-07-03.17:28:06</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.17:28:06</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="54" parent="2" name="COP_SAP_SOURCE">
+      <ObjectId>98094</ObjectId>
+      <CreatedTimestamp>2019-04-05.01:31:16</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-05.01:38:29</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="55" parent="2" name="DATA_STATISTICS_ACTIVE_W">
+      <ObjectId>95235</ObjectId>
+      <CreatedTimestamp>2018-12-19.00:05:36</CreatedTimestamp>
+      <ModifiedTimestamp>2019-01-05.00:57:24</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="56" parent="2" name="DATA_STATISTICS_QUERY_DATA">
+      <ObjectId>94288</ObjectId>
+      <CreatedTimestamp>2018-11-09.06:11:40</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-15.22:54:31</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="57" parent="2" name="DATA_STATISTICS_RANGE_MESSAGE">
+      <ObjectId>94289</ObjectId>
+      <CreatedTimestamp>2018-11-09.06:11:45</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-09.06:11:45</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="58" parent="2" name="DATA_STATISTICS_START_USAGE">
+      <ObjectId>94290</ObjectId>
+      <CreatedTimestamp>2018-11-09.06:11:45</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-20.23:30:41</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="59" parent="2" name="DATA_STATISTICS_START_USAGE_2">
+      <ObjectId>94479</ObjectId>
+      <CreatedTimestamp>2018-11-17.00:20:57</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-20.23:30:55</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="60" parent="2" name="DATA_STATISTICS_START_USAGE_3">
+      <ObjectId>94625</ObjectId>
+      <CreatedTimestamp>2018-11-22.23:36:27</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-22.23:36:27</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="61" parent="2" name="DATA_STATISTICS_START_USAGE_4">
+      <ObjectId>94832</ObjectId>
+      <CreatedTimestamp>2018-12-01.05:28:02</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-01.05:28:02</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="62" parent="2" name="DATA_STATISTICS_START_USAGE_W">
+      <ObjectId>95290</ObjectId>
+      <CreatedTimestamp>2018-12-20.17:20:05</CreatedTimestamp>
+      <ModifiedTimestamp>2019-01-05.00:56:45</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="63" parent="2" name="DATA_STATISTICS_VEHICLE_INFO">
+      <ObjectId>94405</ObjectId>
+      <CreatedTimestamp>2018-11-13.23:21:13</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-16.17:02:29</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="64" parent="2" name="DATA_STATISTICS_VEHICLE_INFO_0">
+      <ObjectId>94300</ObjectId>
+      <CreatedTimestamp>2018-11-10.01:14:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-13.21:55:11</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="65" parent="2" name="DATA_STATISTICS_VEHICLE_INFO_1">
+      <ObjectId>94291</ObjectId>
+      <CreatedTimestamp>2018-11-09.06:11:45</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-13.01:13:40</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="66" parent="2" name="DATA_STATISTICS_VEHICLE_INFO_2">
+      <ObjectId>94374</ObjectId>
+      <CreatedTimestamp>2018-11-13.01:16:17</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-13.01:16:17</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="67" parent="2" name="DATA_STATISTICS_VEHICLE_INFO_5">
+      <ObjectId>94402</ObjectId>
+      <CreatedTimestamp>2018-11-13.18:46:34</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-14.16:59:53</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="68" parent="2" name="DATA_STATISTICS_VEHICLE_INFO_W">
+      <ObjectId>95237</ObjectId>
+      <CreatedTimestamp>2018-12-19.00:07:12</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-25.19:00:38</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="69" parent="2" name="DATA_STATISTICS_VEHICLE_TRIP">
+      <ObjectId>94292</ObjectId>
+      <CreatedTimestamp>2018-11-09.06:11:46</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-09.06:11:46</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="70" parent="2" name="EXPORTFIELDNAME">
+      <ObjectId>97480</ObjectId>
+      <CreatedTimestamp>2019-03-21.00:06:45</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-21.00:17:01</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="71" parent="2" name="FILE_DOWN">
+      <ObjectId>90862</ObjectId>
+      <CreatedTimestamp>2018-07-03.17:28:06</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.17:28:06</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="72" parent="2" name="GEN_SCHEME">
+      <ObjectId>90865</ObjectId>
+      <CreatedTimestamp>2018-07-03.17:28:07</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.17:28:07</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="73" parent="2" name="GEN_TABLE">
+      <ObjectId>90866</ObjectId>
+      <CreatedTimestamp>2018-07-03.17:28:07</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.17:28:07</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="74" parent="2" name="GEN_TABLE_COLUMN">
+      <ObjectId>90867</ObjectId>
+      <CreatedTimestamp>2018-07-03.17:28:07</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.17:28:07</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="75" parent="2" name="GEN_TEMPLATE">
+      <ObjectId>90868</ObjectId>
+      <CreatedTimestamp>2018-07-03.17:28:07</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.17:28:07</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="76" parent="2" name="HAT_AREA">
+      <ObjectId>94045</ObjectId>
+      <CreatedTimestamp>2018-10-27.22:34:42</CreatedTimestamp>
+      <ModifiedTimestamp>2018-10-27.22:34:42</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="77" parent="2" name="HAT_CITY">
+      <ObjectId>94043</ObjectId>
+      <CreatedTimestamp>2018-10-27.22:34:42</CreatedTimestamp>
+      <ModifiedTimestamp>2018-10-27.22:34:42</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="78" parent="2" name="HAT_PROVINCE">
+      <ObjectId>94041</ObjectId>
+      <CreatedTimestamp>2018-10-27.22:34:42</CreatedTimestamp>
+      <ModifiedTimestamp>2018-10-27.22:34:42</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="79" parent="2" name="PLAN_TABLE">
+      <ObjectId>90880</ObjectId>
+      <CreatedTimestamp>2018-07-03.17:28:09</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.17:28:09</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="80" parent="2" name="QRTZ_BLOB_TRIGGERS">
+      <ObjectId>90881</ObjectId>
+      <CreatedTimestamp>2018-07-03.17:28:09</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.17:28:09</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="81" parent="2" name="QRTZ_CALENDARS">
+      <ObjectId>90884</ObjectId>
+      <CreatedTimestamp>2018-07-03.17:28:09</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.17:28:09</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="82" parent="2" name="QRTZ_CRON_TRIGGERS">
+      <ObjectId>90887</ObjectId>
+      <CreatedTimestamp>2018-07-03.17:28:11</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.17:28:11</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="83" parent="2" name="QRTZ_FIRED_TRIGGERS">
+      <ObjectId>90888</ObjectId>
+      <CreatedTimestamp>2018-07-03.17:28:11</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.17:28:11</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="84" parent="2" name="QRTZ_JOB_DETAILS">
+      <ObjectId>90889</ObjectId>
+      <CreatedTimestamp>2018-07-03.17:28:11</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.17:28:11</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="85" parent="2" name="QRTZ_LOCKS">
+      <ObjectId>90892</ObjectId>
+      <CreatedTimestamp>2018-07-03.17:28:11</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.17:28:11</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="86" parent="2" name="QRTZ_PAUSED_TRIGGER_GRPS">
+      <ObjectId>90893</ObjectId>
+      <CreatedTimestamp>2018-07-03.17:28:11</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-03.17:28:11</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="87" parent="2" name="QRTZ_SCHEDULER_STATE">
+      <ObjectId>88752</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:47</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:16</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="88" parent="2" name="QRTZ_SIMPLE_TRIGGERS">
+      <ObjectId>88753</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:47</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:16</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="89" parent="2" name="QRTZ_SIMPROP_TRIGGERS">
+      <ObjectId>88754</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:47</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:17</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="90" parent="2" name="QRTZ_TRIGGERS">
+      <ObjectId>88755</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:47</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:17</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="91" parent="2" name="RTM_ACTIVATION_LOG">
+      <ObjectId>88764</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:48</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:20</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="92" parent="2" name="RTM_AUTHENTICATION_LOG">
+      <ObjectId>88771</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:49</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-16.17:57:28</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="93" parent="2" name="RTM_AUTHENTICATION_LOG_PROD">
+      <ObjectId>88772</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:49</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:21</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="94" parent="2" name="RTM_BATTERY_AFTERSALES_USER">
+      <ObjectId>98052</ObjectId>
+      <CreatedTimestamp>2019-04-03.21:10:32</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-03.22:31:25</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="95" parent="2" name="RTM_BATTERY_BIT_SYSLOG">
+      <ObjectId>96115</ObjectId>
+      <CreatedTimestamp>2019-01-25.18:33:05</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-05.17:57:45</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="96" parent="2" name="RTM_BATTERY_BIT_SYSLOG_DETAIL">
+      <ObjectId>96117</ObjectId>
+      <CreatedTimestamp>2019-01-25.18:33:26</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-14.16:20:16</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="97" parent="2" name="RTM_BATTERY_BMW_DWH">
+      <ObjectId>93284</ObjectId>
+      <CreatedTimestamp>2018-09-28.21:15:32</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-18.03:05:00</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="98" parent="2" name="RTM_BATTERY_BMW_DWH_IMPORT_LOG">
+      <ObjectId>91112</ObjectId>
+      <CreatedTimestamp>2018-07-12.18:33:50</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-12.18:33:50</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="99" parent="2" name="RTM_BATTERY_CELL">
+      <ObjectId>97791</ObjectId>
+      <CreatedTimestamp>2019-03-29.02:49:16</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-18.06:10:55</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="100" parent="2" name="RTM_BATTERY_CELL_CSV">
+      <ObjectId>91847</ObjectId>
+      <CreatedTimestamp>2018-08-09.22:26:11</CreatedTimestamp>
+      <ModifiedTimestamp>2018-10-06.17:30:29</ModifiedTimestamp>
+      <Temporary>1</Temporary>
+    </table>
+    <table id="101" parent="2" name="RTM_BATTERY_CELL_DEL">
+      <ObjectId>91118</ObjectId>
+      <CreatedTimestamp>2018-07-12.18:33:50</CreatedTimestamp>
+      <ModifiedTimestamp>2018-09-25.15:48:20</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="102" parent="2" name="RTM_BATTERY_CELL_RECEIVE_TMP">
+      <ObjectId>91119</ObjectId>
+      <CreatedTimestamp>2018-07-12.18:33:51</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-12.18:33:56</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="103" parent="2" name="RTM_BATTERY_CELL_TMP">
+      <ObjectId>91120</ObjectId>
+      <CreatedTimestamp>2018-07-12.18:33:51</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-12.18:33:56</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="104" parent="2" name="RTM_BATTERY_CODE_RECYCLE_TMP">
+      <ObjectId>91638</ObjectId>
+      <CreatedTimestamp>2018-07-30.22:28:40</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-30.22:28:40</ModifiedTimestamp>
+      <Temporary>1</Temporary>
+    </table>
+    <table id="105" parent="2" name="RTM_BATTERY_COMPANY_MAPPING">
+      <ObjectId>91122</ObjectId>
+      <CreatedTimestamp>2018-07-12.18:33:51</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-12.18:33:56</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="106" parent="2" name="RTM_BATTERY_DEALER">
+      <ObjectId>93412</ObjectId>
+      <CreatedTimestamp>2018-10-04.00:16:59</CreatedTimestamp>
+      <ModifiedTimestamp>2018-10-09.19:35:12</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="107" parent="2" name="RTM_BATTERY_DEALER_BBA">
+      <ObjectId>94622</ObjectId>
+      <CreatedTimestamp>2018-11-22.22:02:23</CreatedTimestamp>
+      <ModifiedTimestamp>2019-01-07.21:37:33</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="108" parent="2" name="RTM_BATTERY_DEALER_TMP">
+      <ObjectId>93509</ObjectId>
+      <CreatedTimestamp>2018-10-07.18:31:04</CreatedTimestamp>
+      <ModifiedTimestamp>2018-10-09.19:36:01</ModifiedTimestamp>
+      <Temporary>1</Temporary>
+    </table>
+    <table id="109" parent="2" name="RTM_BATTERY_DECOMMISSIIONING">
+      <ObjectId>92048</ObjectId>
+      <CreatedTimestamp>2018-08-17.17:28:28</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-18.06:10:55</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="110" parent="2" name="RTM_BATTERY_DECOMMISSIION_TEMP">
+      <ObjectId>92545</ObjectId>
+      <CreatedTimestamp>2018-09-05.02:41:17</CreatedTimestamp>
+      <ModifiedTimestamp>2019-01-03.18:58:30</ModifiedTimestamp>
+      <Temporary>1</Temporary>
+    </table>
+    <table id="111" parent="2" name="RTM_BATTERY_ENCODING_RECYCLE">
+      <ObjectId>91123</ObjectId>
+      <CreatedTimestamp>2018-07-12.18:33:51</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-12.18:33:56</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="112" parent="2" name="RTM_BATTERY_EXCHANGE">
+      <ObjectId>91124</ObjectId>
+      <CreatedTimestamp>2018-07-12.18:33:51</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-12.18:33:56</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="113" parent="2" name="RTM_BATTERY_EXCHANGE_DEL">
+      <ObjectId>91125</ObjectId>
+      <CreatedTimestamp>2018-07-12.18:33:51</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-12.18:33:57</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="114" parent="2" name="RTM_BATTERY_EXCHANGE_TMP">
+      <ObjectId>91126</ObjectId>
+      <CreatedTimestamp>2018-07-12.18:33:51</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-12.18:33:51</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="115" parent="2" name="RTM_BATTERY_IPSL_IMPORT_LOG">
+      <ObjectId>97707</ObjectId>
+      <CreatedTimestamp>2019-03-27.17:55:42</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-27.17:55:42</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="116" parent="2" name="RTM_BATTERY_LOG">
+      <ObjectId>91127</ObjectId>
+      <CreatedTimestamp>2018-07-12.18:33:51</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-12.18:33:57</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="117" parent="2" name="RTM_BATTERY_LOGISTICS">
+      <ObjectId>98025</ObjectId>
+      <CreatedTimestamp>2019-04-03.01:12:06</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-19.18:31:49</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="118" parent="2" name="RTM_BATTERY_LOGISTICS_DETAIL">
+      <ObjectId>98027</ObjectId>
+      <CreatedTimestamp>2019-04-03.01:15:33</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-09.22:54:49</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="119" parent="2" name="RTM_BATTERY_LOG_AUDIT">
+      <ObjectId>94939</ObjectId>
+      <CreatedTimestamp>2018-12-06.20:13:52</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-06.20:13:53</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="120" parent="2" name="RTM_BATTERY_MODULE">
+      <ObjectId>97783</ObjectId>
+      <CreatedTimestamp>2019-03-29.02:33:30</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-18.06:10:55</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="121" parent="2" name="RTM_BATTERY_MODULE_BBATMP">
+      <ObjectId>91129</ObjectId>
+      <CreatedTimestamp>2018-07-12.18:33:52</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-12.18:33:57</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="122" parent="2" name="RTM_BATTERY_MODULE_CSV">
+      <ObjectId>91846</ObjectId>
+      <CreatedTimestamp>2018-08-09.22:23:10</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-11.21:18:05</ModifiedTimestamp>
+      <Temporary>1</Temporary>
+    </table>
+    <table id="123" parent="2" name="RTM_BATTERY_MODULE_CSV_2">
+      <ObjectId>95082</ObjectId>
+      <CreatedTimestamp>2018-12-11.21:14:09</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-11.21:18:00</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="124" parent="2" name="RTM_BATTERY_MODULE_DEL">
+      <ObjectId>91130</ObjectId>
+      <CreatedTimestamp>2018-07-12.18:33:52</CreatedTimestamp>
+      <ModifiedTimestamp>2018-09-25.15:48:20</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="125" parent="2" name="RTM_BATTERY_MODULE_RECEIVE_TMP">
+      <ObjectId>91131</ObjectId>
+      <CreatedTimestamp>2018-07-12.18:33:52</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-12.18:33:57</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="126" parent="2" name="RTM_BATTERY_MODULE_TMP">
+      <ObjectId>94744</ObjectId>
+      <CreatedTimestamp>2018-11-28.03:18:27</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-28.03:18:27</ModifiedTimestamp>
+      <Temporary>1</Temporary>
+    </table>
+    <table id="127" parent="2" name="RTM_BATTERY_MODULE_TMP_1">
+      <ObjectId>91133</ObjectId>
+      <CreatedTimestamp>2018-07-12.18:33:52</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-28.03:14:01</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="128" parent="2" name="RTM_BATTERY_NORMAL_RECYCLING">
+      <ObjectId>91134</ObjectId>
+      <CreatedTimestamp>2018-07-12.18:33:52</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-01.00:25:53</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="129" parent="2" name="RTM_BATTERY_PACK">
+      <ObjectId>91135</ObjectId>
+      <CreatedTimestamp>2018-07-12.18:33:53</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-18.06:10:55</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="130" parent="2" name="RTM_BATTERY_PACK_BBATMP">
+      <ObjectId>91136</ObjectId>
+      <CreatedTimestamp>2018-07-12.18:33:53</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-12.18:33:58</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="131" parent="2" name="RTM_BATTERY_PACK_DEL">
+      <ObjectId>91137</ObjectId>
+      <CreatedTimestamp>2018-07-12.18:33:53</CreatedTimestamp>
+      <ModifiedTimestamp>2018-09-25.15:48:20</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="132" parent="2" name="RTM_BATTERY_PACK_RECEIVE_TMP">
+      <ObjectId>91138</ObjectId>
+      <CreatedTimestamp>2018-07-12.18:33:53</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-12.18:33:58</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="133" parent="2" name="RTM_BATTERY_PACK_SUPPLIER_TMP">
+      <ObjectId>91139</ObjectId>
+      <CreatedTimestamp>2018-07-12.18:33:53</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-04.01:05:43</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="134" parent="2" name="RTM_BATTERY_QC_TMP">
+      <ObjectId>95614</ObjectId>
+      <CreatedTimestamp>2019-01-03.17:54:29</CreatedTimestamp>
+      <ModifiedTimestamp>2019-01-03.17:54:29</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="135" parent="2" name="RTM_BATTERY_RECORD">
+      <ObjectId>91205</ObjectId>
+      <CreatedTimestamp>2018-07-12.18:34:58</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-12.18:34:59</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="136" parent="2" name="RTM_BATTERY_RECOVERY">
+      <ObjectId>92050</ObjectId>
+      <CreatedTimestamp>2018-08-17.21:20:07</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-18.06:10:55</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="137" parent="2" name="RTM_BATTERY_RECOVERY_TMP">
+      <ObjectId>94741</ObjectId>
+      <CreatedTimestamp>2018-11-27.23:21:17</CreatedTimestamp>
+      <ModifiedTimestamp>2019-01-04.00:03:23</ModifiedTimestamp>
+      <Temporary>1</Temporary>
+    </table>
+    <table id="138" parent="2" name="RTM_BATTERY_RECOVERY_TMP_1">
+      <ObjectId>94738</ObjectId>
+      <CreatedTimestamp>2018-11-27.16:24:23</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-17.19:06:21</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="139" parent="2" name="RTM_BATTERY_REPAIR">
+      <ObjectId>92788</ObjectId>
+      <CreatedTimestamp>2018-09-11.23:39:56</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-18.06:10:55</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="140" parent="2" name="RTM_BATTERY_REPAIR_B1">
+      <ObjectId>92784</ObjectId>
+      <CreatedTimestamp>2018-09-11.23:39:23</CreatedTimestamp>
+      <ModifiedTimestamp>2018-09-25.16:00:24</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="141" parent="2" name="RTM_BATTERY_REPAIR_B2">
+      <ObjectId>92785</ObjectId>
+      <CreatedTimestamp>2018-09-11.23:39:25</CreatedTimestamp>
+      <ModifiedTimestamp>2018-09-11.23:39:25</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="142" parent="2" name="RTM_BATTERY_REPAIR_B3">
+      <ObjectId>92786</ObjectId>
+      <CreatedTimestamp>2018-09-11.23:39:26</CreatedTimestamp>
+      <ModifiedTimestamp>2018-09-11.23:39:26</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="143" parent="2" name="RTM_BATTERY_REPAIR_B4">
+      <ObjectId>92787</ObjectId>
+      <CreatedTimestamp>2018-09-11.23:39:28</CreatedTimestamp>
+      <ModifiedTimestamp>2018-09-20.22:26:14</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="144" parent="2" name="RTM_BATTERY_REPAIR_BIT">
+      <ObjectId>96570</ObjectId>
+      <CreatedTimestamp>2019-02-16.00:59:59</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-16.00:59:59</ModifiedTimestamp>
+      <Temporary>1</Temporary>
+    </table>
+    <table id="145" parent="2" name="RTM_BATTERY_REPAIR_CHMODULE">
+      <ObjectId>91142</ObjectId>
+      <CreatedTimestamp>2018-07-12.18:33:54</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-12.18:33:58</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="146" parent="2" name="RTM_BATTERY_REPCHM_TMP">
+      <ObjectId>91143</ObjectId>
+      <CreatedTimestamp>2018-07-12.18:33:54</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-12.18:33:58</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="147" parent="2" name="RTM_BATTERY_TASK">
+      <ObjectId>91144</ObjectId>
+      <CreatedTimestamp>2018-07-12.18:33:54</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-12.18:33:58</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="148" parent="2" name="RTM_BATTERY_TASK_MAPPING">
+      <ObjectId>91145</ObjectId>
+      <CreatedTimestamp>2018-07-12.18:33:54</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-12.18:33:58</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="149" parent="2" name="RTM_BATTERY_TEMPLATE">
+      <ObjectId>98328</ObjectId>
+      <CreatedTimestamp>2019-04-10.22:09:43</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-10.22:09:44</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="150" parent="2" name="RTM_BATTERY_TMP">
+      <ObjectId>91149</ObjectId>
+      <CreatedTimestamp>2018-07-12.18:33:54</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-12.18:33:58</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="151" parent="2" name="RTM_BATTERY_VEHICLE_PRODUCTION">
+      <ObjectId>91152</ObjectId>
+      <CreatedTimestamp>2018-07-12.18:33:55</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-18.06:10:55</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="152" parent="2" name="RTM_BATTERY_VEHICLE_PROD_BIT">
+      <ObjectId>98221</ObjectId>
+      <CreatedTimestamp>2019-04-08.22:32:32</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-15.18:34:53</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="153" parent="2" name="RTM_BATTERY_VEHICLE_PROD_DEL">
+      <ObjectId>91150</ObjectId>
+      <CreatedTimestamp>2018-07-12.18:33:54</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-15.17:45:52</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="154" parent="2" name="RTM_BATTERY_VEHICLE_PROD_TMP">
+      <ObjectId>97705</ObjectId>
+      <CreatedTimestamp>2019-03-27.17:23:07</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-27.17:23:07</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="155" parent="2" name="RTM_BATTERY_VEHICLE_SALES">
+      <ObjectId>92430</ObjectId>
+      <CreatedTimestamp>2018-08-31.21:56:55</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-18.06:10:55</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="156" parent="2" name="RTM_BATTERY_VEHICLE_SALES_DEL">
+      <ObjectId>96685</ObjectId>
+      <CreatedTimestamp>2019-02-20.22:24:15</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-07.19:04:33</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="157" parent="2" name="RTM_BATTERY_VEHICLE_SALES_TMP">
+      <ObjectId>97224</ObjectId>
+      <CreatedTimestamp>2019-03-13.21:25:56</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-13.21:25:56</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="158" parent="2" name="RTM_BATTERY_VEHICLE_TILE">
+      <ObjectId>98392</ObjectId>
+      <CreatedTimestamp>2019-04-12.21:44:13</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-12.21:44:13</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="159" parent="2" name="RTM_BMW_DWH">
+      <ObjectId>89355</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:48:33</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-01.21:59:40</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="160" parent="2" name="RTM_BMW_DWH_CHECK">
+      <ObjectId>88806</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:54</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:34:54</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="161" parent="2" name="RTM_BMW_DWH_ERROR">
+      <ObjectId>88807</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:54</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:34:54</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="162" parent="2" name="RTM_BMW_DWH_HISTORY">
+      <ObjectId>93981</ObjectId>
+      <CreatedTimestamp>2018-10-25.18:14:07</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-05.22:03:58</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="163" parent="2" name="RTM_BMW_DWH_IMPORT_LOG">
+      <ObjectId>88809</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:54</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:34:54</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="164" parent="2" name="RTM_BMW_DWH_NEW">
+      <ObjectId>88829</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:55</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:23</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="165" parent="2" name="RTM_BMW_DWH_NEWPROD">
+      <ObjectId>88830</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:55</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:23</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="166" parent="2" name="RTM_BMW_DWH_PROD">
+      <ObjectId>88831</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:55</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:23</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="167" parent="2" name="RTM_BMW_DWH_W">
+      <ObjectId>95240</ObjectId>
+      <CreatedTimestamp>2018-12-19.00:15:53</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-19.00:20:45</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="168" parent="2" name="RTM_BMW_HVBATTERY_IMPORT_LOG">
+      <ObjectId>88835</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:57</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:24</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="169" parent="2" name="RTM_BMW_STATIC_INFO_IMPORT_LOG">
+      <ObjectId>90833</ObjectId>
+      <CreatedTimestamp>2018-07-02.22:29:50</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-02.22:29:50</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="170" parent="2" name="RTM_BMW_VHM_IMPORT_LOG">
+      <ObjectId>88836</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:57</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:24</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="171" parent="2" name="RTM_BUSINESS_FLOW_TMP">
+      <ObjectId>89608</ObjectId>
+      <CreatedTimestamp>2018-05-16.06:13:51</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-16.06:13:51</ModifiedTimestamp>
+      <Temporary>1</Temporary>
+    </table>
+    <table id="172" parent="2" name="RTM_CODINGVALUE">
+      <ObjectId>88838</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:57</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:24</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="173" parent="2" name="RTM_FIRMWARE">
+      <ObjectId>88844</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:57</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:25</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="174" parent="2" name="RTM_FTP_SERVER">
+      <ObjectId>88845</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:58</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:25</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="175" parent="2" name="RTM_GOV_INFO">
+      <ObjectId>88846</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:58</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:34:58</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="176" parent="2" name="RTM_GOV_REGISTER">
+      <ObjectId>88847</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:58</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:25</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="177" parent="2" name="RTM_MILEAGE_STATISTICS">
+      <ObjectId>88848</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:58</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:25</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="178" parent="2" name="RTM_PARAMETER">
+      <ObjectId>88849</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:58</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:25</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="179" parent="2" name="RTM_PLAN">
+      <ObjectId>88850</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:58</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:25</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="180" parent="2" name="RTM_SAP_IMPORT_LOG">
+      <ObjectId>92202</ObjectId>
+      <CreatedTimestamp>2018-08-23.06:41:14</CreatedTimestamp>
+      <ModifiedTimestamp>2018-08-23.06:41:14</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="181" parent="2" name="RTM_STATICINFOEXPORT_VIN_TEMP">
+      <ObjectId>96904</ObjectId>
+      <CreatedTimestamp>2019-03-01.18:32:49</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-08.01:20:20</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="182" parent="2" name="RTM_TBOX">
+      <ObjectId>89356</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:48:35</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-01.21:52:23</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="183" parent="2" name="RTM_TBOX_CHANGE_LOG">
+      <ObjectId>88854</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:59</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:25</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="184" parent="2" name="RTM_TEMP_PACKIMPORT">
+      <ObjectId>89610</ObjectId>
+      <CreatedTimestamp>2018-05-16.00:10:39</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-16.00:10:39</ModifiedTimestamp>
+      <Temporary>1</Temporary>
+    </table>
+    <table id="185" parent="2" name="RTM_TEMP_RECEIVEMODULE">
+      <ObjectId>90530</ObjectId>
+      <CreatedTimestamp>2018-06-22.22:19:21</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-22.22:19:21</ModifiedTimestamp>
+      <Temporary>1</Temporary>
+    </table>
+    <table id="186" parent="2" name="RTM_TEMP_RECEIVEPACK">
+      <ObjectId>90529</ObjectId>
+      <CreatedTimestamp>2018-06-22.22:19:21</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-22.22:19:21</ModifiedTimestamp>
+      <Temporary>1</Temporary>
+    </table>
+    <table id="187" parent="2" name="RTM_UPGRADE_HISTORY">
+      <ObjectId>88861</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:35:01</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-12.19:21:31</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="188" parent="2" name="RTM_VEHICLE">
+      <ObjectId>89357</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:48:49</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-01.22:33:48</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="189" parent="2" name="RTM_VEHICLE_5">
+      <ObjectId>95243</ObjectId>
+      <CreatedTimestamp>2018-12-19.00:20:59</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-25.18:57:49</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="190" parent="2" name="RTM_VEHICLE_BIT">
+      <ObjectId>88868</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:35:02</CreatedTimestamp>
+      <ModifiedTimestamp>2018-09-04.00:23:46</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="191" parent="2" name="RTM_VEHICLE_CLASSIFY">
+      <ObjectId>98373</ObjectId>
+      <CreatedTimestamp>2019-04-11.23:36:00</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-11.23:37:07</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="192" parent="2" name="RTM_VEHICLE_EXT">
+      <ObjectId>88869</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:35:02</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-18.18:28:08</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="193" parent="2" name="RTM_VEHICLE_FIXED_BATTERY_INFO">
+      <ObjectId>88870</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:35:02</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:26</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="194" parent="2" name="RTM_VEHICLE_FIXED_INFO">
+      <ObjectId>88871</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:35:02</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-01.22:00:56</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="195" parent="2" name="RTM_VEHICLE_SHANGHAI">
+      <ObjectId>88875</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:35:04</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:27</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="196" parent="2" name="RTM_VEHICLE_W">
+      <ObjectId>95304</ObjectId>
+      <CreatedTimestamp>2018-12-22.01:54:59</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-22.01:55:49</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="197" parent="2" name="R_ALARM_DETAIL">
+      <ObjectId>88758</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:47</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:18</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="198" parent="2" name="R_ALARM_DIC">
+      <ObjectId>88759</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:47</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:18</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="199" parent="2" name="R_STATISTICS_ALARM">
+      <ObjectId>88760</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:47</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:18</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="200" parent="2" name="R_STATISTICS_CHARGETIME">
+      <ObjectId>88761</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:48</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:19</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="201" parent="2" name="R_STATISTICS_MILEAGE">
+      <ObjectId>88762</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:48</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:19</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="202" parent="2" name="R_STATISTICS_ONLINETIME">
+      <ObjectId>88763</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:34:48</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:20</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="203" parent="2" name="SCHEDULE_JOB">
+      <ObjectId>88884</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:35:04</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:27</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="204" parent="2" name="SCHEDULE_JOB_LOG">
+      <ObjectId>88885</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:35:04</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:27</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="205" parent="2" name="SEARCHFIELD">
+      <ObjectId>98308</ObjectId>
+      <CreatedTimestamp>2019-04-10.00:45:58</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-10.00:45:58</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="206" parent="2" name="SYS_AREA">
+      <ObjectId>89050</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:43:08</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-16.00:43:28</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="207" parent="2" name="SYS_AUDIT_LOG">
+      <ObjectId>92816</ObjectId>
+      <CreatedTimestamp>2018-09-12.18:31:50</CreatedTimestamp>
+      <ModifiedTimestamp>2018-09-28.17:45:22</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="208" parent="2" name="SYS_BUSINESS_LOG">
+      <ObjectId>89051</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:43:08</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:44:34</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="209" parent="2" name="SYS_DICT">
+      <ObjectId>93031</ObjectId>
+      <CreatedTimestamp>2018-09-18.18:52:19</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-01.21:58:28</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="210" parent="2" name="SYS_INTERNATIONALIZATION">
+      <ObjectId>93700</ObjectId>
+      <CreatedTimestamp>2018-10-15.22:39:40</CreatedTimestamp>
+      <ModifiedTimestamp>2018-10-16.17:08:05</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="211" parent="2" name="SYS_LOG">
+      <ObjectId>89057</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:43:12</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:44:34</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="212" parent="2" name="SYS_MDICT">
+      <ObjectId>89062</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:44:02</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:44:34</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="213" parent="2" name="SYS_MENU">
+      <ObjectId>89063</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:44:02</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.22:19:20</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="214" parent="2" name="SYS_OFFICE">
+      <ObjectId>89064</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:44:03</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-16.00:43:28</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="215" parent="2" name="SYS_PASSWORD_SETTINGS">
+      <ObjectId>93696</ObjectId>
+      <CreatedTimestamp>2018-10-15.19:20:17</CreatedTimestamp>
+      <ModifiedTimestamp>2018-10-18.18:31:20</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="216" parent="2" name="SYS_ROLE">
+      <ObjectId>89067</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:44:05</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:44:35</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="217" parent="2" name="SYS_ROLE_LABEL">
+      <ObjectId>89068</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:44:05</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:44:35</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="218" parent="2" name="SYS_ROLE_MENU">
+      <ObjectId>89069</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:44:05</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:44:35</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="219" parent="2" name="SYS_ROLE_OFFICE">
+      <ObjectId>90175</ObjectId>
+      <CreatedTimestamp>2018-06-08.01:07:19</CreatedTimestamp>
+      <ModifiedTimestamp>2018-06-08.02:35:28</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="220" parent="2" name="SYS_ROLE_SIGNAL">
+      <ObjectId>89071</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:44:20</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:44:35</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="221" parent="2" name="SYS_SIGNAL_GROUP">
+      <ObjectId>89074</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:44:28</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:44:35</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="222" parent="2" name="SYS_SIGNAL_GROUP_MAPPING">
+      <ObjectId>98050</ObjectId>
+      <CreatedTimestamp>2019-04-03.16:24:00</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-03.16:24:30</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="223" parent="2" name="SYS_SIGNAL_ITM">
+      <ObjectId>89076</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:44:31</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:44:35</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="224" parent="2" name="SYS_SIGNAL_ITM_COMPARE">
+      <ObjectId>89077</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:44:32</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:44:35</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="225" parent="2" name="SYS_TEMP_FBT">
+      <ObjectId>97438</ObjectId>
+      <CreatedTimestamp>2019-03-18.18:35:23</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-18.18:35:23</ModifiedTimestamp>
+      <Temporary>1</Temporary>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="226" parent="2" name="SYS_USER">
+      <ObjectId>89078</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:44:32</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-04.22:46:46</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="227" parent="2" name="SYS_USER_PASSWORD_HISTORY">
+      <ObjectId>92854</ObjectId>
+      <CreatedTimestamp>2018-09-13.18:17:42</CreatedTimestamp>
+      <ModifiedTimestamp>2018-09-13.18:17:42</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="228" parent="2" name="SYS_USER_RETRIEVE_PASSWORD">
+      <ObjectId>93894</ObjectId>
+      <CreatedTimestamp>2018-10-22.19:01:11</CreatedTimestamp>
+      <ModifiedTimestamp>2018-10-22.19:01:27</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="229" parent="2" name="SYS_USER_ROLE">
+      <ObjectId>89079</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:44:33</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:44:35</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="230" parent="2" name="SYS_VEHICLE_LIFE_CYCLE">
+      <ObjectId>93950</ObjectId>
+      <CreatedTimestamp>2018-10-24.17:43:45</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-29.16:55:32</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="231" parent="2" name="SYS_VERIFY_VIN_TEMP">
+      <ObjectId>91637</ObjectId>
+      <CreatedTimestamp>2018-07-30.17:43:22</CreatedTimestamp>
+      <ModifiedTimestamp>2018-07-30.17:43:22</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="232" parent="2" name="TEST">
+      <ObjectId>96217</ObjectId>
+      <CreatedTimestamp>2019-01-29.21:26:23</CreatedTimestamp>
+      <ModifiedTimestamp>2019-01-29.21:28:57</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="233" parent="2" name="TEST_RTM_BATTERY_BMW_DWH">
+      <ObjectId>93066</ObjectId>
+      <CreatedTimestamp>2018-09-19.17:35:51</CreatedTimestamp>
+      <ModifiedTimestamp>2018-09-19.17:35:51</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="234" parent="2" name="TEST_VIN">
+      <ObjectId>94001</ObjectId>
+      <CreatedTimestamp>2018-10-26.22:35:23</CreatedTimestamp>
+      <ModifiedTimestamp>2018-10-26.22:35:23</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="235" parent="2" name="TE_ALARM_CONTACT">
+      <ObjectId>88920</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:35:10</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-11.19:22:14</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="236" parent="2" name="TE_VEHICLE_ACCIDENT">
+      <ObjectId>88931</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:35:12</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-11.19:21:49</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="237" parent="2" name="TE_VEHICLE_RESCUE">
+      <ObjectId>88932</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:35:12</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:30</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="238" parent="2" name="TR_PLATFORM">
+      <ObjectId>98696</ObjectId>
+      <CreatedTimestamp>2019-04-18.21:58:48</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-18.21:58:49</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="239" parent="2" name="TR_PLATFORM_TRANSMIT">
+      <ObjectId>94190</ObjectId>
+      <CreatedTimestamp>2018-11-05.17:28:18</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-17.00:18:17</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="240" parent="2" name="TR_PLATFORM_TRANSMIT_TMP">
+      <ObjectId>94367</ObjectId>
+      <CreatedTimestamp>2018-11-12.18:32:25</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-08.22:58:17</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="241" parent="2" name="UNHEALTHY_VIN">
+      <ObjectId>98723</ObjectId>
+      <CreatedTimestamp>2019-04-20.00:13:36</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-20.00:13:36</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="242" parent="2" name="Z_T">
+      <ObjectId>96703</ObjectId>
+      <CreatedTimestamp>2019-02-22.01:30:36</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-22.01:30:36</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="243" parent="2" name="rangeMessage">
+      <ObjectId>94164</ObjectId>
+      <CreatedTimestamp>2018-11-03.01:02:18</CreatedTimestamp>
+      <ModifiedTimestamp>2018-11-03.01:29:48</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="244" parent="2" name="te_car_info_import_log">
+      <ObjectId>88921</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:35:10</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:10</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="245" parent="2" name="te_city">
+      <ObjectId>88928</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:35:12</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:30</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="246" parent="2" name="te_group">
+      <ObjectId>88929</ObjectId>
+      <CreatedTimestamp>2018-05-11.00:35:12</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-11.00:35:30</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="247" parent="2" name="test_d">
+      <ObjectId>95294</ObjectId>
+      <CreatedTimestamp>2018-12-20.23:51:58</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-20.23:53:48</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="248" parent="2" name="test_p">
+      <ObjectId>92893</ObjectId>
+      <CreatedTimestamp>2018-09-14.18:42:14</CreatedTimestamp>
+      <ModifiedTimestamp>2018-09-14.23:41:59</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="249" parent="2" name="test_v">
+      <ObjectId>92891</ObjectId>
+      <CreatedTimestamp>2018-09-14.18:41:43</CreatedTimestamp>
+      <ModifiedTimestamp>2018-09-14.18:41:43</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <view id="250" parent="2" name="BATTERY_MAPPING_VIEW">
+      <ObjectId>92789</ObjectId>
+      <CreatedTimestamp>2018-09-11.23:56:38</CreatedTimestamp>
+      <ModifiedTimestamp>2019-03-29.22:40:31</ModifiedTimestamp>
+      <Modifiable>1</Modifiable>
+    </view>
+    <view id="251" parent="2" name="BATTERY_QC_CELL_VIEW">
+      <ObjectId>95638</ObjectId>
+      <CreatedTimestamp>2019-01-04.23:48:28</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-02.19:02:19</ModifiedTimestamp>
+      <Modifiable>1</Modifiable>
+    </view>
+    <view id="252" parent="2" name="BATTERY_QC_MODULE_VIEW">
+      <ObjectId>95639</ObjectId>
+      <CreatedTimestamp>2019-01-04.23:48:28</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-01.17:14:10</ModifiedTimestamp>
+      <Modifiable>1</Modifiable>
+    </view>
+    <view id="253" parent="2" name="BATTERY_VEHICLE_SALES_VIEW">
+      <ObjectId>98327</ObjectId>
+      <CreatedTimestamp>2019-04-10.21:23:04</CreatedTimestamp>
+      <ModifiedTimestamp>2019-04-18.03:38:04</ModifiedTimestamp>
+      <Modifiable>1</Modifiable>
+    </view>
+    <view id="254" parent="2" name="DATA_STATISTICS_VEHICLE_BASIC">
+      <ObjectId>95245</ObjectId>
+      <CreatedTimestamp>2018-12-19.00:33:50</CreatedTimestamp>
+      <ModifiedTimestamp>2019-01-05.01:11:07</ModifiedTimestamp>
+      <Modifiable>1</Modifiable>
+    </view>
+    <view id="255" parent="2" name="NEW_BATTERY_MAPPING_VIEW">
+      <ObjectId>93748</ObjectId>
+      <Invalid>1</Invalid>
+      <CreatedTimestamp>2018-10-17.19:24:19</CreatedTimestamp>
+      <ModifiedTimestamp>2018-10-23.19:14:27</ModifiedTimestamp>
+      <Modifiable>1</Modifiable>
+    </view>
+    <view id="256" parent="2" name="RTM_TBOX_VIEW">
+      <ObjectId>89738</ObjectId>
+      <CreatedTimestamp>2018-05-18.00:43:08</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-18.00:45:50</ModifiedTimestamp>
+      <Modifiable>1</Modifiable>
+    </view>
+    <view id="257" parent="2" name="VEHICLE_VIEW">
+      <ObjectId>92154</ObjectId>
+      <CreatedTimestamp>2018-08-21.19:00:48</CreatedTimestamp>
+      <ModifiedTimestamp>2018-09-18.18:52:20</ModifiedTimestamp>
+      <Modifiable>1</Modifiable>
+    </view>
+    <view id="258" parent="2" name="V_BATTERY_ENCODING_RECEIVE">
+      <ObjectId>91335</ObjectId>
+      <Invalid>1</Invalid>
+      <CreatedTimestamp>2018-07-18.02:00:58</CreatedTimestamp>
+      <ModifiedTimestamp>2018-08-29.01:26:34</ModifiedTimestamp>
+      <Modifiable>1</Modifiable>
+    </view>
+    <view id="259" parent="2" name="V_RTM_BATTERY_REPAIR">
+      <ObjectId>89616</ObjectId>
+      <Invalid>1</Invalid>
+      <CreatedTimestamp>2018-05-16.19:11:39</CreatedTimestamp>
+      <ModifiedTimestamp>2019-02-26.19:17:18</ModifiedTimestamp>
+      <Modifiable>1</Modifiable>
+    </view>
+    <view id="260" parent="2" name="test">
+      <ObjectId>93033</ObjectId>
+      <Invalid>1</Invalid>
+      <CreatedTimestamp>2018-09-18.22:27:10</CreatedTimestamp>
+      <ModifiedTimestamp>2018-09-18.22:30:25</ModifiedTimestamp>
+      <Modifiable>1</Modifiable>
+    </view>
+    <routine id="261" parent="2" name="ADDVEHICLE">
+      <ObjectId>92997</ObjectId>
+    </routine>
+    <routine id="262" parent="2" name="ADDVEHICLE1">
+      <ObjectId>92998</ObjectId>
+    </routine>
+    <routine id="263" parent="2" name="GET_SEQ">
+      <ObjectId>92999</ObjectId>
+    </routine>
+    <routine id="264" parent="2" name="MULTINSERT">
+      <ObjectId>92993</ObjectId>
+    </routine>
+    <routine id="265" parent="2" name="MULTINSERT1">
+      <ObjectId>92994</ObjectId>
+    </routine>
+    <routine id="266" parent="2" name="MULTINSERT2">
+      <ObjectId>92995</ObjectId>
+    </routine>
+    <routine id="267" parent="2" name="MULTINSERT3">
+      <ObjectId>92996</ObjectId>
+    </routine>
+    <routine id="268" parent="2" name="ORACLE_TO_UNIX">
+      <ObjectId>98017</ObjectId>
+    </routine>
+  </database-model>
+</dataSource>
