@@ -16,9 +16,10 @@ TEMP_IMAGE_NAME = "temp.bmp"  # 转换后的临时文件
 TEMP_RESULT_NAME = "temp"  # 保存识别文字临时文件
 CLEANUP_TEMP_FLAG = True  # 清理临时文件的标识
 INCOMPATIBLE = True  # 兼容性标识
-chromedriver =r"D:\tools\chromedriver.exe"
+
+# chromedriver =r"D:\tools\chromedriver.exe"
 # chromedriver =r"C:\Users\USER\AppData\Local\Programs\Python\Python37\chromedriver.exe"
-os.environ["webdriver.Chrome.driver"] = chromedriver #调用chrome浏览器
+# os.environ["webdriver.Chrome.driver"] = chromedriver #调用chrome浏览器
 # option = webdriver.ChromeOptions()
 # option.binary_location = r'C:\Users\USER\AppData\Local\Google\Chrome\Application\chrome.exe'
 # p=r'C:\Users\USER\AppData\Local\Google\Chrome\Application'
@@ -75,7 +76,7 @@ def image_to_string(image, lang, cleanup=CLEANUP_TEMP_FLAG, incompatible=INCOMPA
 	finally:
 		if cleanup:
 			perform_cleanup(TEMP_IMAGE_NAME, TEMP_RESULT_NAME)
-browser = webdriver.Chrome(chromedriver)
+browser = webdriver.Chrome()
 # browser = webdriver.Chrome(r"D:\tools\chromedriver.exe")
 # print(str(webdriver.ChromeOptions.binary_location))
 # browser = webdriver.Chrome(chromedriver,chrome_options=option)
@@ -104,12 +105,17 @@ vcode = pytesseract.image_to_string(image)
 print(str(vcode))
 # text = image_to_string('a.png', 'eng')
 # print(text)
-browser.find_elements_by_class_name('textfield')[0].send_keys('liu.mg')
-browser.find_elements_by_class_name('textfield')[1].send_keys('wo11223033!')
+
+browser.find_element_by_xpath("//*[@id='tbLogonPanel']/div/div/div[2]/div[2]/input").send_keys("sun-lm")
+time.sleep(1)
+browser.find_element_by_xpath("//*[@id='tbLogonPanel']/div/div/div[2]/div[3]/input").send_keys("$RFV4rfv4")
+# browser.find_elements_by_class_name('textfield')[0].send_keys('liu.mg')
+# browser.find_elements_by_class_name('textfield')[1].send_keys('wo11223033!')
 browser.find_element_by_class_name('a').send_keys(vcode)
+time.sleep(3)
 browser.find_element_by_id('loginButton').click()
 # input_first = browser.find_element(By.ID, 'q')#第一个参数传入名称，第二个传入具体的参数
 # print(input_first)
 time.sleep(3)
 # print(browser.page_source)#browser.page_source是获取网页的全部html
-# browser.close()
+browser.close()

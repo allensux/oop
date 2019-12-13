@@ -5,12 +5,12 @@ import threading
 
 def loop1():
     print("start loop1 at : ", time.ctime())
-    time.sleep(4)
-    print("End loop 1 at:", time.ctime())
+    time.sleep(6)
+    print("End loop1 at:", time.ctime())
 
 def loop2():
     print("start loop2 at :", time.ctime())
-    time.sleep(2)
+    time.sleep(1)
     print("End loop2 at :", time.ctime())
 
 def loop3():
@@ -32,11 +32,12 @@ def main():
     t3 = threading.Thread(target=loop3, args=())
     t3.setName("线程3")
     t3.start()
+
     # t1.join()
     # t2.join()
     # t3.join()
     time.sleep(3)
-
+    # 3秒后线程2已经干完了
     for thr in threading.enumerate():
         print("正在运行的线程名字是： {0}".format((thr.getName())))
     print("正在运行的线程{0}".format(threading.enumerate()))

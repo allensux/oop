@@ -140,8 +140,8 @@ def write(vin):
             obmbc.appendChild(obmbc_value)
             battery_module.appendChild(obmbc)
 
-            # 内层循环单体
-            for j in range(1, 17):
+            # 内层循环单体(i-1)*12 +1 ,i*12+1
+            for j in range((i-1)*16+1, i*16+1):
                 """batterycell"""
                 battery_cell = doc.createElement("batteryCell")
                 battery_module.appendChild(battery_cell)
@@ -201,7 +201,7 @@ def write(vin):
             battery_module.appendChild(obmbc)
 
             # 内层循环单体
-            for j in range(1,13):
+            for j in range((i-1)*12 +1 ,i*12+1):
                 """batterycell"""
                 battery_cell = doc.createElement("batteryCell")
                 battery_module.appendChild(battery_cell)
@@ -234,4 +234,4 @@ def write(vin):
 
 
 if __name__ == '__main__':
-    write('WBY1Z210000000001')
+    write('WBY2Z610000000001')

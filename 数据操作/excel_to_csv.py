@@ -1,18 +1,18 @@
 # coding:utf8
 
 '''
-Excelæ–‡ä»¶è½¬csvæ–‡ä»¶è„šæœ¬
-éœ€è¦å°†è¯¥è„šæœ¬ç›´æ¥æ”¾åˆ°è¦è½¬æ¢çš„Excelæ–‡ä»¶åŒçº§ç›®å½•ä¸‹
-æ”¯æŒxlsx å’Œ xls æ ¼å¼
-åœ¨åŒçº§ç›®å½•ä¸‹ç”Ÿæˆåä¸ºexcel_to_csv.csv çš„æ–‡ä»¶ï¼Œé‡‡ç”¨UTF-8ç¼–ç 
+ExcelÎÄ¼ş×ªcsvÎÄ¼ş½Å±¾
+ĞèÒª½«¸Ã½Å±¾Ö±½Ó·Åµ½Òª×ª»»µÄExcelÎÄ¼şÍ¬¼¶Ä¿Â¼ÏÂ
+Ö§³Öxlsx ºÍ xls ¸ñÊ½
+ÔÚÍ¬¼¶Ä¿Â¼ÏÂÉú³ÉÃûÎªexcel_to_csv.csv µÄÎÄ¼ş£¬²ÉÓÃUTF-8±àÂë
 '''
 import xlrd
 import csv
 import os
-#ç”Ÿæˆçš„csvæ–‡ä»¶å
+#Éú³ÉµÄcsvÎÄ¼şÃû
 csv_file_name = 'excel_to_csv.csv'
 def get_excel_list():
-    #è·å–Excelæ–‡ä»¶åˆ—è¡¨
+    #»ñÈ¡ExcelÎÄ¼şÁĞ±í
     excel_file_list = []
     file_list = os.listdir(os.getcwd())
     for file_name in file_list:
@@ -20,47 +20,47 @@ def get_excel_list():
             excel_file_list.append(file_name)
     return excel_file_list
 def get_excel_header(excel_name_for_header):
-    #è·å–è¡¨å¤´ï¼Œå¹¶å°†è¡¨å¤´å…¨éƒ¨å˜ä¸ºå°å†™
+    #»ñÈ¡±íÍ·£¬²¢½«±íÍ·È«²¿±äÎªĞ¡Ğ´
     workbook = xlrd.open_workbook(excel_name_for_header)
     table = workbook.sheet_by_index(0)
     #row_value = table.row_values(0)
     row_value = [i.lower() for i in table.row_values(0)]
     return row_value
 def read_excel(excel_name):
-    #è¯»å–Excelæ–‡ä»¶æ¯ä¸€è¡Œå†…å®¹åˆ°ä¸€ä¸ªåˆ—è¡¨ä¸­
+    #¶ÁÈ¡ExcelÎÄ¼şÃ¿Ò»ĞĞÄÚÈİµ½Ò»¸öÁĞ±íÖĞ
     workbook = xlrd.open_workbook(excel_name)
-    table = workbook.sheet_by_index(0) #è¯»å–ç¬¬ä¸€ä¸ªsheet
+    table = workbook.sheet_by_index(0) #¶ÁÈ¡µÚÒ»¸ösheet
     nrows = table.nrows
     ncols = table.ncols
-    # è·³è¿‡è¡¨å¤´ï¼Œä»ç¬¬ä¸€è¡Œæ•°æ®å¼€å§‹è¯»
+    # Ìø¹ı±íÍ·£¬´ÓµÚÒ»ĞĞÊı¾İ¿ªÊ¼¶Á
     for rows_read in range(1,nrows):
-        #æ¯è¡Œçš„æ‰€æœ‰å•å…ƒæ ¼å†…å®¹ç»„æˆä¸€ä¸ªåˆ—è¡¨
+        #Ã¿ĞĞµÄËùÓĞµ¥Ôª¸ñÄÚÈİ×é³ÉÒ»¸öÁĞ±í
         row_value = []
         for cols_read in range(ncols):
-            #è·å–å•å…ƒæ ¼æ•°æ®ç±»å‹
+            #»ñÈ¡µ¥Ôª¸ñÊı¾İÀàĞÍ
             ctype = table.cell(rows_read, cols_read).ctype
-            #è·å–å•å…ƒæ ¼æ•°æ®
+            #»ñÈ¡µ¥Ôª¸ñÊı¾İ
             nu_str = table.cell(rows_read, cols_read).value
-            #åˆ¤æ–­è¿”å›ç±»å‹
-            # 0 empty,1 string, 2 number(éƒ½æ˜¯æµ®ç‚¹), 3 date, 4 boolean, 5 error
-            #æ˜¯2ï¼ˆæµ®ç‚¹æ•°ï¼‰çš„è¦æ”¹ä¸ºint
+            #ÅĞ¶Ï·µ»ØÀàĞÍ
+            # 0 empty,1 string, 2 number(¶¼ÊÇ¸¡µã), 3 date, 4 boolean, 5 error
+            #ÊÇ2£¨¸¡µãÊı£©µÄÒª¸ÄÎªint
             if ctype == 2:
                 nu_str = int(nu_str)
             row_value.append(nu_str)
         yield row_value
 
 def xlsx_to_csv(csv_file_name,row_value):
-    #ç”Ÿæˆcsvæ–‡ä»¶
-    with open(csv_file_name, 'a', encoding='utf-8',newline='') as f: #newline=''ä¸åŠ ä¼šå¤šç©ºè¡Œ
+    #Éú³ÉcsvÎÄ¼ş
+    with open(csv_file_name, 'a', encoding='utf-8',newline='') as f: #newline=''²»¼Ó»á¶à¿ÕĞĞ
         write = csv.writer(f)
         write.writerow(row_value)
 if __name__ == '__main__':
-    #è·å–Excelåˆ—è¡¨
+    #»ñÈ¡ExcelÁĞ±í
     excel_list = get_excel_list()
-    #è·å–Excelè¡¨å¤´å¹¶ç”Ÿæˆcsvæ–‡ä»¶æ ‡é¢˜
+    #»ñÈ¡Excel±íÍ·²¢Éú³ÉcsvÎÄ¼ş±êÌâ
     xlsx_to_csv(csv_file_name,get_excel_header(excel_list[0]))
-    #ç”Ÿæˆcsvæ•°æ®å†…å®¹
+    #Éú³ÉcsvÊı¾İÄÚÈİ
     for excel_name in  excel_list:
         for row_value in read_excel(excel_name):
             xlsx_to_csv(csv_file_name,row_value)
-    print('Excelæ–‡ä»¶è½¬csvæ–‡ä»¶ç»“æŸ ')
+    print('ExcelÎÄ¼ş×ªcsvÎÄ¼ş½áÊø ')

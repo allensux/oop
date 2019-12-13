@@ -19,8 +19,10 @@ def myAdd():
 def myMinu():
     global sum, loopsum
     for i in range(1, loopsum):
+        # 上锁，申请锁
         lock.acquire()
         sum -= 1
+        # 释放锁
         lock.release()
 
     print("Minu{0}".format(sum))

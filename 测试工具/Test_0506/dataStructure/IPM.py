@@ -5,7 +5,6 @@
 作者：
 创建时间：
 """
-from Tools.scripts.treesync import raw_input
 
 """当前目录创建txt文件"""
 def createFileTxt():
@@ -49,8 +48,8 @@ def write_ipm_pack(path, count):
                 mmo_list.append(mmo_code)
                 chv_list.append(chv_code)
 
-                print('双模块:', mmo_list)
-                print('电池包chv',chv_code)
+                # print('双模块:', mmo_list)
+                # print('电池包chv',chv_code)
                 f.write(mmo_list[j-((i-1)*4+1)])  # 写入双模块MMO信息
             f.write(chv_list[j-((i-1)*4+1)])   # 写入chv信息
 
@@ -64,16 +63,16 @@ def write_ipm_pack(path, count):
                 # if(k ==(i-1)*4 +1):
                 mmo_code_1 = bind + ipm_mmo_title + 'DOUBLEBBMW00BMW' + o + '           '
                 mmo_list_1.append(mmo_code_1)
-                print('双', mmo_list_1)
+                # print('双', mmo_list_1)
                 f.write(mmo_list_1[k-((i-1)*4+1)])  # 写入双模块MMO信息
 
                 for k1 in range((k-1)*2+1,k*2+1):
-                    if(k1 % 2 ==1):
+                    if(k1%2 ==1):
                         mod_code = '002' + ipm_mod_title + 'BMWIPM000MODULE00000BMW000' + str(k1).zfill(5)
                     else:
                         mod_code = bind + ipm_mod_title + 'BMWIPM000MODULE00000BMW000' + str(k1).zfill(5)
                     mod_list.append(mod_code)
-                    print('模块', mod_list)
+                    # print('模块', mod_list)
                     f.write(mod_list[k1-((i-1)*8+1)])  # 写入单模块MOD信息
 
 
@@ -86,16 +85,16 @@ def write_ipm_pack(path, count):
                 cmo_code = bind + ipm_cmo_title + '001MAIPMIPMIPM66F00' + str(m).zfill(5) + '       '
                 cmo_list.append(cmo_code)
                 mod_list_1.append(mod_code_1)
-                print('单模块：',mod_list_1)
+                # print('单模块：',mod_list_1)
                 f.write(mod_list_1[m-((i-1)*8+1)])  # 写入单模块MOD信息
 
                 for m1 in range((m-1)*12+1,m*12+1):
-                    if(m1 %12==1):
+                    if(m1%12==1):
                         cel_code = '013' + ipm_cel_title + 'BMWIPM000CELL0000000BMW000' + str(m1).zfill(5)
                     else:
                         cel_code = bind + ipm_cel_title + 'BMWIPM000CELL0000000BMW000' + str(m1).zfill(5)
                     cel_list.append(cel_code)
-                    print('单体', cel_list)
+                    # print('单体', cel_list)
                     f.write(cel_list[m1-((i-1)*96+1)])  # 写入单体CEL信息
                 f.write(cmo_list[m-((i-1)*8+1)]) # 写入单模块CMO信息
 
@@ -108,14 +107,13 @@ def write_ipm_pack(path, count):
                 cce_code = '001' + ipm_cce_title + '001CAIPMIPMIPM66F00'  + str(n).zfill(5) + '       '
                 cel_list_1.append(cel_code_1)
                 cce_list.append(cce_code)
-                print('单体BMW',cel_list_1)
-                print('单体GBT',cce_list)
+                # print('单体BMW',cel_list_1)
+                # print('单体GBT',cce_list)
                 f.write(cel_list_1[n - ((i - 1) * 96 + 1)])  # 写入单体CEL信息
                 f.write(cce_list[n - ((i - 1) * 96 + 1)])  # 写入单体CCE信息
 
-            f.write('1\n') # 换行
-
+            f.write('1\n') # 补1换行
 
 if __name__ == '__main__':
     path = createFileTxt()
-    write_ipm_pack(path,int(raw_input("请输入一个大于0的整数: (输入1，生成1条报文; 输入2，生成2条报文)\n")))
+    write_ipm_pack(path,int(input("请输入一个大于0的整数: (输入1，生成1条报文; 输入2，生成2条报文......)\n")))

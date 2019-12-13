@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 	<vehicleInformation>
-		<vehicle vinLong="WBY1Z210000000001">
+		<vehicle vinLong="WBY2Z610000000001">
 			<status>P</status>
-			<f2Date>06.05.19 09:59:22,037000000</f2Date>
-			<m203Date>06.05.19 09:59:22,037000000</m203Date>
-			<vehicleModelDescription>i3 60Ah BEV</vehicleModelDescription>
-			<vehicleType>1Z21</vehicleType>
-			<bodyType>i3</bodyType>
+			<f2Date>09.05.19 14:12:04,887000000</f2Date>
+			<m203Date>09.05.19 14:12:04,895000000</m203Date>
+			<vehicleModelDescription>I15 i8 Roadster</vehicleModelDescription>
+			<vehicleType>2Z61</vehicleType>
+			<bodyType>i8</bodyType>
 			<maintenanceDate></maintenanceDate>
 			<maintenanceDealer></maintenanceDealer>
 			<maintenanceDealerName></maintenanceDealerName>
@@ -91,6 +91,30 @@
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
+					<batteryCell>
+						<batteryCellGBTCode>CELLGBTCODE13</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE13</batteryCellBMWCode>
+						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
+						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
+					</batteryCell>
+					<batteryCell>
+						<batteryCellGBTCode>CELLGBTCODE14</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE14</batteryCellBMWCode>
+						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
+						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
+					</batteryCell>
+					<batteryCell>
+						<batteryCellGBTCode>CELLGBTCODE15</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE15</batteryCellBMWCode>
+						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
+						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
+					</batteryCell>
+					<batteryCell>
+						<batteryCellGBTCode>CELLGBTCODE16</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE16</batteryCellBMWCode>
+						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
+						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
+					</batteryCell>
 				</batteryModul>
 				<batteryModul>
 					<batteryModulGBTCode>MODULEGBTCODE2</batteryModulGBTCode>
@@ -98,74 +122,98 @@
 					<oldBatteryModulGBTCode></oldBatteryModulGBTCode>
 					<oldBatteryModulBMWCode></oldBatteryModulBMWCode>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE1</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE1</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE17</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE17</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE2</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE2</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE18</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE18</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE3</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE3</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE19</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE19</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE4</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE4</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE20</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE20</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE5</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE5</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE21</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE21</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE6</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE6</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE22</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE22</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE7</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE7</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE23</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE23</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE8</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE8</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE24</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE24</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE9</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE9</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE25</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE25</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE10</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE10</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE26</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE26</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE11</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE11</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE27</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE27</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE12</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE12</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE28</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE28</batteryCellBMWCode>
+						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
+						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
+					</batteryCell>
+					<batteryCell>
+						<batteryCellGBTCode>CELLGBTCODE29</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE29</batteryCellBMWCode>
+						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
+						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
+					</batteryCell>
+					<batteryCell>
+						<batteryCellGBTCode>CELLGBTCODE30</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE30</batteryCellBMWCode>
+						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
+						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
+					</batteryCell>
+					<batteryCell>
+						<batteryCellGBTCode>CELLGBTCODE31</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE31</batteryCellBMWCode>
+						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
+						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
+					</batteryCell>
+					<batteryCell>
+						<batteryCellGBTCode>CELLGBTCODE32</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE32</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
@@ -176,74 +224,98 @@
 					<oldBatteryModulGBTCode></oldBatteryModulGBTCode>
 					<oldBatteryModulBMWCode></oldBatteryModulBMWCode>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE1</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE1</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE33</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE33</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE2</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE2</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE34</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE34</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE3</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE3</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE35</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE35</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE4</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE4</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE36</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE36</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE5</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE5</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE37</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE37</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE6</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE6</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE38</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE38</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE7</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE7</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE39</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE39</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE8</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE8</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE40</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE40</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE9</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE9</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE41</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE41</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE10</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE10</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE42</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE42</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE11</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE11</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE43</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE43</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE12</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE12</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE44</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE44</batteryCellBMWCode>
+						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
+						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
+					</batteryCell>
+					<batteryCell>
+						<batteryCellGBTCode>CELLGBTCODE45</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE45</batteryCellBMWCode>
+						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
+						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
+					</batteryCell>
+					<batteryCell>
+						<batteryCellGBTCode>CELLGBTCODE46</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE46</batteryCellBMWCode>
+						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
+						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
+					</batteryCell>
+					<batteryCell>
+						<batteryCellGBTCode>CELLGBTCODE47</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE47</batteryCellBMWCode>
+						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
+						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
+					</batteryCell>
+					<batteryCell>
+						<batteryCellGBTCode>CELLGBTCODE48</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE48</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
@@ -254,74 +326,98 @@
 					<oldBatteryModulGBTCode></oldBatteryModulGBTCode>
 					<oldBatteryModulBMWCode></oldBatteryModulBMWCode>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE1</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE1</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE49</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE49</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE2</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE2</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE50</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE50</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE3</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE3</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE51</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE51</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE4</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE4</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE52</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE52</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE5</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE5</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE53</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE53</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE6</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE6</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE54</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE54</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE7</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE7</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE55</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE55</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE8</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE8</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE56</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE56</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE9</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE9</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE57</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE57</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE10</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE10</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE58</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE58</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE11</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE11</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE59</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE59</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE12</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE12</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE60</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE60</batteryCellBMWCode>
+						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
+						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
+					</batteryCell>
+					<batteryCell>
+						<batteryCellGBTCode>CELLGBTCODE61</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE61</batteryCellBMWCode>
+						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
+						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
+					</batteryCell>
+					<batteryCell>
+						<batteryCellGBTCode>CELLGBTCODE62</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE62</batteryCellBMWCode>
+						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
+						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
+					</batteryCell>
+					<batteryCell>
+						<batteryCellGBTCode>CELLGBTCODE63</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE63</batteryCellBMWCode>
+						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
+						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
+					</batteryCell>
+					<batteryCell>
+						<batteryCellGBTCode>CELLGBTCODE64</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE64</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
@@ -332,74 +428,98 @@
 					<oldBatteryModulGBTCode></oldBatteryModulGBTCode>
 					<oldBatteryModulBMWCode></oldBatteryModulBMWCode>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE1</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE1</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE65</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE65</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE2</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE2</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE66</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE66</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE3</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE3</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE67</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE67</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE4</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE4</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE68</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE68</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE5</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE5</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE69</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE69</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE6</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE6</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE70</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE70</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE7</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE7</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE71</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE71</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE8</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE8</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE72</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE72</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE9</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE9</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE73</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE73</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE10</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE10</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE74</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE74</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE11</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE11</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE75</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE75</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE12</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE12</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE76</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE76</batteryCellBMWCode>
+						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
+						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
+					</batteryCell>
+					<batteryCell>
+						<batteryCellGBTCode>CELLGBTCODE77</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE77</batteryCellBMWCode>
+						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
+						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
+					</batteryCell>
+					<batteryCell>
+						<batteryCellGBTCode>CELLGBTCODE78</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE78</batteryCellBMWCode>
+						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
+						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
+					</batteryCell>
+					<batteryCell>
+						<batteryCellGBTCode>CELLGBTCODE79</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE79</batteryCellBMWCode>
+						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
+						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
+					</batteryCell>
+					<batteryCell>
+						<batteryCellGBTCode>CELLGBTCODE80</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE80</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
@@ -410,230 +530,98 @@
 					<oldBatteryModulGBTCode></oldBatteryModulGBTCode>
 					<oldBatteryModulBMWCode></oldBatteryModulBMWCode>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE1</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE1</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE81</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE81</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE2</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE2</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE82</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE82</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE3</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE3</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE83</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE83</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE4</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE4</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE84</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE84</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE5</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE5</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE85</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE85</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE6</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE6</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE86</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE86</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE7</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE7</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE87</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE87</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE8</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE8</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE88</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE88</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE9</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE9</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE89</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE89</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE10</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE10</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE90</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE90</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE11</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE11</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE91</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE91</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE12</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE12</batteryCellBMWCode>
-						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
-						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
-					</batteryCell>
-				</batteryModul>
-				<batteryModul>
-					<batteryModulGBTCode>MODULEGBTCODE7</batteryModulGBTCode>
-					<batteryModulBMWCode>MODULEBMWCODE7</batteryModulBMWCode>
-					<oldBatteryModulGBTCode></oldBatteryModulGBTCode>
-					<oldBatteryModulBMWCode></oldBatteryModulBMWCode>
-					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE1</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE1</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE92</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE92</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE2</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE2</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE93</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE93</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE3</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE3</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE94</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE94</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE4</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE4</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE95</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE95</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
 					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE5</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE5</batteryCellBMWCode>
-						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
-						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
-					</batteryCell>
-					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE6</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE6</batteryCellBMWCode>
-						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
-						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
-					</batteryCell>
-					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE7</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE7</batteryCellBMWCode>
-						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
-						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
-					</batteryCell>
-					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE8</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE8</batteryCellBMWCode>
-						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
-						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
-					</batteryCell>
-					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE9</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE9</batteryCellBMWCode>
-						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
-						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
-					</batteryCell>
-					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE10</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE10</batteryCellBMWCode>
-						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
-						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
-					</batteryCell>
-					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE11</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE11</batteryCellBMWCode>
-						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
-						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
-					</batteryCell>
-					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE12</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE12</batteryCellBMWCode>
-						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
-						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
-					</batteryCell>
-				</batteryModul>
-				<batteryModul>
-					<batteryModulGBTCode>MODULEGBTCODE8</batteryModulGBTCode>
-					<batteryModulBMWCode>MODULEBMWCODE8</batteryModulBMWCode>
-					<oldBatteryModulGBTCode></oldBatteryModulGBTCode>
-					<oldBatteryModulBMWCode></oldBatteryModulBMWCode>
-					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE1</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE1</batteryCellBMWCode>
-						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
-						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
-					</batteryCell>
-					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE2</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE2</batteryCellBMWCode>
-						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
-						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
-					</batteryCell>
-					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE3</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE3</batteryCellBMWCode>
-						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
-						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
-					</batteryCell>
-					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE4</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE4</batteryCellBMWCode>
-						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
-						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
-					</batteryCell>
-					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE5</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE5</batteryCellBMWCode>
-						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
-						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
-					</batteryCell>
-					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE6</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE6</batteryCellBMWCode>
-						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
-						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
-					</batteryCell>
-					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE7</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE7</batteryCellBMWCode>
-						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
-						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
-					</batteryCell>
-					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE8</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE8</batteryCellBMWCode>
-						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
-						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
-					</batteryCell>
-					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE9</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE9</batteryCellBMWCode>
-						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
-						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
-					</batteryCell>
-					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE10</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE10</batteryCellBMWCode>
-						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
-						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
-					</batteryCell>
-					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE11</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE11</batteryCellBMWCode>
-						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
-						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
-					</batteryCell>
-					<batteryCell>
-						<batteryCellGBTCode>CELLGBTCODE12</batteryCellGBTCode>
-						<batteryCellBMWCode>CELLBMWCODE12</batteryCellBMWCode>
+						<batteryCellGBTCode>CELLGBTCODE96</batteryCellGBTCode>
+						<batteryCellBMWCode>CELLBMWCODE96</batteryCellBMWCode>
 						<oldBatteryCellGBTCode></oldBatteryCellGBTCode>
 						<oldBatteryCellBMWCode></oldBatteryCellBMWCode>
 					</batteryCell>
