@@ -1,9 +1,9 @@
 # coding:utf8
 
 """
-功能名称：将csv转换成excel pd格式
-作者：
-创建时间：
+功能名称：将csv转换成多个excel pd格式
+作者：Allen
+创建时间：2020/01/09
 """
 import os
 import pandas as pd
@@ -25,8 +25,10 @@ def get_csv_list():
 
 def csv_to_xlsx_pd():
     csv_list = get_csv_list()
-    csv = pd.read_csv(csv_list[0], encoding='GBK')  # 使用国标码编码gb2312、GBK也OK
-    csv.to_excel(excel_file_name, sheet_name='data')
+    # print(len(csv_list))
+    for i in range(len(csv_list)):
+        csv = pd.read_csv(csv_list[i], encoding='GBK')  # 使用国标码编码gb2312、GBK也OK
+        csv.to_excel('csv_to_excel' + str(i) + '.xlsx' , sheet_name='data')  # 生成两个excel文件
 
 
 if __name__ == '__main__':
