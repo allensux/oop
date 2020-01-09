@@ -5,7 +5,10 @@ Excel文件转csv文件脚本
 需要将该脚本直接放到要转换的Excel文件同级目录下
 支持xlsx 和 xls 格式
 在同级目录下生成名为excel_to_csv.csv 的文件，采用UTF-8编码
+作者：Allen
+创建时间：2020/01/09
 """
+
 import xlrd
 import csv
 import os
