@@ -44,4 +44,5 @@ urlpatterns = [
     url(r'^withparam/(?P<year>[1,2][0][0,1][0-9])/(?P<month>[0][0-9]|[1][0-2])',views.withparam),
 ]
 
+
 """带参数 /search/page/432"""
