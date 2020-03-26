@@ -35,10 +35,10 @@
 
 # 字典迭代
 
-D = {'a': 1, 'b': 2, 'c': 3}
-I = iter(D)
-for key in I:
-    print(key, D[key])
+# D = {'a': 1, 'b': 2, 'c': 3}
+# I = iter(D)
+# for key in I:
+#     print(key, D[key])
 # print(next(I))
 # print(I.__next__())
 # for key in D.keys():
@@ -55,3 +55,14 @@ def hah():
 
 x = 5//2
 print(x)
+
+
+a = filter(lambda x : x%2 == 0, [1,2,3,4,5,6,7] )
+print(list(a))
+
+
+D = {'a': 1, 'b': 2, 'c': 3}
+print(D.keys())
+print(sorted(D.keys()))
+print(D.items())
+

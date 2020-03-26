@@ -33,6 +33,7 @@ def serverFunc():
     data, addrclient = sock.recvfrom(500) # 元组写成这种形式，直接返回元组中的两个值
     print("data is:",data)
     print("type is:",type(data))
+    print("addrclient is:", addrclient)
 
     # 发送过来的数据是bytes格式，必须通过解码才能得到str格式内容
     # 默认参数utf-8

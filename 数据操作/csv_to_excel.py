@@ -9,10 +9,6 @@ import os
 import pandas as pd
 
 
-# 生成的excel文件名
-excel_file_name = 'csv_to_excel.xlsx'
-
-
 def get_csv_list():
     # 获取csv文件列表
     csv_file_list = []
@@ -28,7 +24,7 @@ def csv_to_xlsx_pd():
     # print(len(csv_list))
     for i in range(len(csv_list)):
         csv = pd.read_csv(csv_list[i], encoding='GBK')  # 使用国标码编码gb2312、GBK也OK
-        csv.to_excel('csv_to_excel' + str(i) + '.xlsx' , sheet_name='data')  # 生成两个excel文件
+        csv.to_excel('csv_to_excel_' + str(i) + '.xlsx' , sheet_name='data')  # 生成N个excel文件
 
 
 if __name__ == '__main__':

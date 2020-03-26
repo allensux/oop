@@ -40,8 +40,8 @@ def read_excel(excel_name):
     # 读取Excel文件每一行内容到一个列表中
     workbook = xlrd.open_workbook(excel_name)
     table = workbook.sheet_by_index(0)  # 读取第一个sheet
-    nrows = table.nrows
-    ncols = table.ncols
+    nrows = table.nrows  # 获取行数
+    ncols = table.ncols  # 获取列数
     # 跳过表头，从第一行数据开始读
     for rows_read in range(1, nrows):
         # 每行的所有单元格内容组成一个列表
@@ -62,7 +62,7 @@ def read_excel(excel_name):
 
 def xlsx_to_csv(csv_file_name, row_value):
     # 生成csv文件
-    with open(csv_file_name, 'a', encoding='utf-8', newline='') as f:  # newline=''不加会多空行
+    with open(csv_file_name, 'a', encoding='gbk', newline='') as f:  # newline=''不加会多空行
         write = csv.writer(f)
         write.writerow(row_value)
 
