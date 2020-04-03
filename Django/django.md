@@ -12,6 +12,7 @@ django架站的16堂课
 - anaconda使用
     - conda list:显示当前环境安装的包
     - conda env list:显示安装的虚拟环境
+- 创建虚拟环境
     - conda create -n env_name python=3.6
 - 激活conda的虚拟环境
     - (win)conda activate env_name  
@@ -294,7 +295,7 @@ views.py: 视图文件 视图函数在urls中在调用，视图函数需要一个参数，类型应该是HttpR
          - 在调用as_view的时候直接最为参数使用，例如：
          '''urlpatterns = [
          url(r'^about/',GreetingView.as_view)
-         ]'  
+         ]'''  
     - 对于类的视图的扩充大致有三种方法：Mixin，装饰as_view, 装饰dispatch
     - 使用Mixin
         - 多继承的一种形式，来自父类的行为和属性组合在一起
@@ -363,4 +364,227 @@ views.py: 视图文件 视图函数在urls中在调用，视图函数需要一个参数，类型应该是HttpR
         - 4. default: 默认值
         - 5. unique: 唯一
         - 6. verbose_name: 假名
+    - 数据库的迁移
+        - 1. 在命令行中，生成数据迁移的数据(生成sql语句)
+                
+                python manage.py makemigrations
+        
+        - 2. 在命令行中，输入数据迁移的指令
+                
+                python manage.py migrate
+                
+               ps: 如果迁移中出现没有变化或者报错，可以尝试强制迁移
+               
+               # 强制迁移命令
+                - python manage.py makemigrations 应用名
+                - python manage.py migrate 应用名
+         - 3. 对于默认数据库，为了避免出现混乱，如果数据库中没有数据，每次迁移前可以把
+         自带的sqlite3数据库删除
+     
+******ORM--(Object Relational Mapping)关系对象映射******     
+# ### 查看数据库数据
+    
+   1. 启动命令行： python manage.py shell
+    ps:对ORM的操作分为静态函数和非静态函数，两种，静态是指在内存中只有一份，非静态数据每个实例存一份
+    2. 在命令行中导入对应的映射类
+        from 应用.models import 类名
+        - from teacher.models import Teacher
+    3. 使用objects属性操作数据库. **objects是模型中实际与数据库交互的**
+    4. 查询命令
+        - 类名.objects.all() 查询数据库表中所有内容，返回结果是一个Query
+            - Teacher.objects.all()
+        - 类名.object.filter(条件) 
+            - Teacher.objects.filter(age=18)  查询年龄是18岁的人
+        
+      5. 插入命令
+        dana = Teacher()  # 创建一个类的实例
+        dana.nama = "Dana"  # 给对象的属性赋值
+        dana.age = 18
+        dana.address = "tulingxueyuan"
+        
+        dana.save()  # 将所有保存到数据库中
+        
+        # 遍历
+        ta = Teacher.objects.all()
+        for t in ta：
+            print("Name:{0}, age:{1}, Address:{2}, Course:{3}".format(t.name, t.age, t.address, t.course))
+   
+   - 常见查找方法
+    1. 通用查找格式：属性名 _ _ (用下面的内容) = 值exit
+    
+        - gt : 大于   例如：ta = Teacher.objects.filter(age__gt=18) # 查找年龄大于18岁的
+        - gte ：大于等于
+        - lt : 小于
+        - lte: 小于等于
+        - range: 范围
+        - year: 年份
+        - isnull: 是否为空
+     2. 查找等于指定值得格式：属性名 = 值  age =18
+     3. 模糊查找： 属性名_ _(使用下面的内容) = 值
+     
+     * exact ： 精确等于
+     * iexact： 不区分大小写
+     * contains: 包含     ta = Teacher.objects.filter(course__contains="")
+     * startwith: 以...开头
+     * endwith: 以...结尾
+     
+# 模型-数据库表关系   
+- 多表联查：利用多个表联合查找某一项信息或多项信息。    
+- school:manager 1:1 OneToOne
+    - 建立关系：在模型任意一边即可
+    - add: 
+       - 添加没有关系的一边，直接实例化保存就可以                    
+            >>>s = School()
+            >>> s.school_id=1
+            >>> s.school_name="tulingxueyuan"
+            >>> s.save()
+            >>> ss = School.objects.all()
+            >>> ss
+            <QuerySet [<School: nanjingtulingxueyuan>, <School: tulingxueyuan>]>
+       - 添加有关系的一边,使用使用实例化或者使用create方法,**建议使用create**
+            1. 使用实例化方法：
+                >>> m = Manager()
+                >>> m.manager_id = 10
+                >>> m.manager_name = "dana"
+                >>> m.my_school = s
+                >>> m.save()
+                >>> mm = Manager.objects.all()
+                >>> mm
+                <QuerySet [<Manager: dana>]>
+            2. 使用create方法：
+                >>>m = Manager.objects.create(manager_id = 20, manager_name = "erna", my_school=ss[0])
+        - Query(查询):
+            - 有子表查母表  查询dana校长是哪个学校的
+                >>>Manager.objects.get(manager_name="dana").my_school.school_name
+            - 有母表查子表  查询叫大拿的学校
+                >>>School.objects.get(manager__manager_name="dana")
+        - change(修改)
+            - 单个修改用save()
+            - 批量修改使用update()
+                >>> ss = School.objects.all()
+                >>> ss.update(school_name="图灵学院")
+            - 无论对子表还是母表的修改
+        - delete(删除)：直接使用delete删除
+
+- school:teacher 1:N OneToMany
+    - 建立关系：
+        - 一个表格的一个数据项、对象等，可以有很多个另一个表格的数据项
+        - 比如：一个学校可以有很多个老师，但一个老师只有一个学校
+        - 在多的一边使用ForeignKey
+    - Add(添加)
+        - 与一对一的方法类似，通过create和new来添加
+            1. 使用实例,需要手动save
+                >>> ss = School.objects.all()
+                >>> ss
+                <QuerySet [<School: nanjingtulingxueyuan>, <School: tulingxueyuan>]>
+                >>> ss[0]
+                <School: nanjingtulingxueyuan>
+                >>> t1 = Teacher()
+                >>> t1
+                <Teacher: >
+                >>> t1.teacher_name = "张三"
+                >>> t1.my_school = ss[0]s
+                >>> t1.save()
+                >>> ts = Teacher.objects.all()
+                >>> ts
+                <QuerySet [<Teacher: 张三>]>
+            2. 使用create方法（推荐）
+                >>>t = Teacher.objects.create(teacher_name= "李四", my_school = ss[1])
+                >>> t
+                <Teacher: 李四>
+                >>> ts
+                <QuerySet [<Teacher: 张三>, <Teacher: 李四>]>
+        - create: 把属性都填满，然后不需要手动保存
+        - new: 可以属性或参数为空，必须save保存
+    - Query(查找)：
+        - 以学校和老师的例子为准
+        - 如果知道老师查学校， 则通过增加的关系属性，直接使用
+        - 例如：查找t1老师是哪个学校的 
+            >>>t1.my_schools
+        - 反查：查询学校的所有老师，则需要在老师模型名称的小写下直接加下划线set：teacher_set
+            """一对多的关系系统默认添加一个多的一边的属性"""  # teacher_set
+            >>>s1.teacher_set.all()
+- teacher:student N:N  ManyToMany
+    - 表示任意一个表的数据可以拥有对方表格多项数据，反之亦然
+    - 比如典型例子：老师和学生的关系
+    - 使用上，在任意一方，使用ManyToMany定义，只需要定义一边
+    -Add(添加):
+        - 添加老师，则使用student.teachers.add()
+        >>>tt = Teacher.objects.all()
+        <QuerySet [<Teacher: 张三>, <Teacher: 李四>]>
+        >>>stu = Student()
+        >>>stu.teachers.add(tt[0])
+        >>>stu.teachers.all()
+        <QuerySet [<Teacher: 张三>]>
+        >>>stu.teachers.add(tt[1])
+        >>>stu.teachers.all()
+        <QuerySet [<Teacher: 张三>, <Teacher: 李四>]>
+                
+    - Query(查询)
+        - 跟一对多一样，使用_set
+        - 查找学生对应的所有老师 ss[0].teachers.all()
+        - 查找老师对应的所有学生 tt[0].student_set.all()
+        >>> tt = Teacher.objects.all()
+        >>> tt
+        <QuerySet [<Teacher: 张三>, <Teacher: 李四>]>
+        >>> ss = Student.objects.all()
+        >>> ss
+        <QuerySet [<Student: 学生1>]>
+        >>> tt[0].student_set
+        <django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object
+         at 0x0000000003D56860>
+        >>> tt[0].student_set.all()
+        <QuerySet [<Student: 学生1>]>
+        >>> ss[0].teachers
+        <django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object
+         at 0x0000000003D56860>
+        >>> ss[0].teachers.all()
+        <QuerySet [<Teacher: 张三>, <Teacher: 李四>]>
+        
+# 模板 Template(html/css...)
+- 模板：一组相同或者相似的页面，在需要个性化的地方进行留白，需要的时候只需要用数据填充就可以了
+- 步骤：
+    1. 在settings中进行设置；
+        - TEMPLATES
+    2. 在templates文件夹下编写模板并调用
+    
+
+# 模板-变量
+- 变量的表示方法：{{var_name}}  
+- 系统调用模板的时候，会用相应的数据查找相应的变量名称，如果能找到则填充或者叫渲染，找不到则跳过；
+    # C = dict()
+    # C["name"] = "sunlimin"
+    >>>render(request, 'two.html', context={"name":"sunlimin"})
+- 案例two.html
+
+# 模板-标签
+- for标签：{%for .. in ..%}  {% endfor %}
+   
+    {%for s in score %}
+        {{s}}
+    {% endfor %}
+# if标签
+- 用来判断条件
+- 代码示例：
+    {%if 条件 %}
+        条件成立执行语句
+    {% elif 条件 %}
+        条件成立执行语句
+    {% else %}
+        以上条件不成立执行语句
+    {% endif %}
+    
+    {% if name == "王晓静" %}
+        {{name}},你好
+    {% elif name == "张晓静" %}
+        {{name}},hello
+    {% endif %}
+# csrf标签
+- csrf:跨站请求伪造
+- 在提交表单的时候，表单页面需要加上{% csrf_token%},
+- 案例 five_get,five_post
+   
+   
+
+        
         

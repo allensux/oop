@@ -1,23 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cd7ba41-bdff-41f5-a12d-ec519be61773" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/数据操作/document.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据操作/test01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/test01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/练习/test_01.py" afterDir="false" />
+    <list default="true" id="8cd7ba41-bdff-41f5-a12d-ec519be61773" name="Default Changelist" comment="0330&#10;0330ALL">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/django_tpl/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/django_tpl/django_tpl/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/django_tpl/django_tpl/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/django_tpl/django_tpl/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/django_tpl/django_tpl/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/django_tpl/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/django_tpl/mytpl/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/django_tpl/mytpl/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/django_tpl/mytpl/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/django_tpl/mytpl/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/django_tpl/mytpl/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/django_tpl/mytpl/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/django_tpl/mytpl/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/django_tpl/templates/five_get.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/django_tpl/templates/four.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/django_tpl/templates/one.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/django_tpl/templates/three.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/django_tpl/templates/two.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/tulingxueyuan/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/oop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/oop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_01.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据操作/csv_to_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据操作/csv_to_excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据操作/excel_to_csv.csv" beforeDir="false" afterPath="$PROJECT_DIR$/数据操作/excel_to_csv.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据操作/excel_to_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据操作/excel_to_csv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据操作/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据操作/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据操作/test.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据操作/test1.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/网络编程/v01.py" beforeDir="false" afterPath="$PROJECT_DIR$/网络编程/v01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/django.md" beforeDir="false" afterPath="$PROJECT_DIR$/Django/django.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/tulingxueyuan/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Django/tulingxueyuan/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/tulingxueyuan/teacher/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/tulingxueyuan/teacher/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/tulingxueyuan/teacher/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/tulingxueyuan/teacher/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/tulingxueyuan/tulingxueyuan/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/tulingxueyuan/tulingxueyuan/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/tulingxueyuan/tulingxueyuan/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/tulingxueyuan/tulingxueyuan/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/tulingxueyuan_views/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Django/tulingxueyuan_views/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +50,7 @@
     <SUITE FILE_PATH="coverage/oop$Thread03.coverage" NAME="Thread03 Coverage Results" MODIFIED="1576226114394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多线程" />
     <SUITE FILE_PATH="coverage/oop$Process02.coverage" NAME="Process02 Coverage Results" MODIFIED="1547000121267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/进程" />
     <SUITE FILE_PATH="coverage/oop$LoginPage.coverage" NAME="LoginPage Coverage Results" MODIFIED="1564046468325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/打卡" />
-    <SUITE FILE_PATH="coverage/oop$manage.coverage" NAME="manage Coverage Results" MODIFIED="1585040631192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django/tulingxueyuan" />
+    <SUITE FILE_PATH="coverage/oop$manage.coverage" NAME="manage Coverage Results" MODIFIED="1585639923081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django/tulingxueyuan" />
     <SUITE FILE_PATH="coverage/oop$django_test01.coverage" NAME="django_test01 Coverage Results" MODIFIED="1585016542630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django框架" />
     <SUITE FILE_PATH="coverage/oop$test_oracle.coverage" NAME="test_oracle Coverage Results" MODIFIED="1556689661748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据库" />
     <SUITE FILE_PATH="coverage/oop$excel_to_csv.coverage" NAME="excel_to_csv Coverage Results" MODIFIED="1583300204173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据操作" />
@@ -47,6 +60,7 @@
     <SUITE FILE_PATH="coverage/oop$Thread02.coverage" NAME="Thread02 Coverage Results" MODIFIED="1576225651776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多线程" />
     <SUITE FILE_PATH="coverage/oop$csv_to_excel.coverage" NAME="csv_to_excel Coverage Results" MODIFIED="1583299265939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据操作" />
     <SUITE FILE_PATH="coverage/oop$Thread07.coverage" NAME="Thread07 Coverage Results" MODIFIED="1576566301083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多线程" />
+    <SUITE FILE_PATH="coverage/oop$manage__1_.coverage" NAME="manage (1) Coverage Results" MODIFIED="1585634917707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django/tulingxueyuan_views" />
     <SUITE FILE_PATH="coverage/oop$Clock.coverage" NAME="Clock Coverage Results" MODIFIED="1564045461488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/打卡" />
     <SUITE FILE_PATH="coverage/oop$pro_json.coverage" NAME="pro_json Coverage Results" MODIFIED="1557210283341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/测试工具/Test_0506/dataStructure" />
     <SUITE FILE_PATH="coverage/oop$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1552642873584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/打卡" />
@@ -62,11 +76,13 @@
     <SUITE FILE_PATH="coverage/oop$readCensusExcel.coverage" NAME="readCensusExcel Coverage Results" MODIFIED="1547772167232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Excel操作" />
     <SUITE FILE_PATH="coverage/oop$re001.coverage" NAME="re001 Coverage Results" MODIFIED="1547452340554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/oop$RE.coverage" NAME="RE Coverage Results" MODIFIED="1585039613290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django/tulingxueyuan" />
+    <SUITE FILE_PATH="coverage/oop$manage__2_.coverage" NAME="manage (2) Coverage Results" MODIFIED="1585729888084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django/tlxy_db" />
     <SUITE FILE_PATH="coverage/oop$FileTransfer.coverage" NAME="FileTransfer Coverage Results" MODIFIED="1578539688697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据操作" />
     <SUITE FILE_PATH="coverage/oop$geturl.coverage" NAME="geturl Coverage Results" MODIFIED="1583386597740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自动化函数" />
     <SUITE FILE_PATH="coverage/oop$test_01.coverage" NAME="test_01 Coverage Results" MODIFIED="1583477460285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/oop$django_test01__1_.coverage" NAME="django_test01 (1) Coverage Results" MODIFIED="1585019093482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django" />
-    <SUITE FILE_PATH="coverage/oop$test.coverage" NAME="test Coverage Results" MODIFIED="1578652039743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据操作" />
+    <SUITE FILE_PATH="coverage/oop$test.coverage" NAME="test Coverage Results" MODIFIED="1585643971533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django/tulingxueyuan/teacher" />
+    <SUITE FILE_PATH="coverage/oop$views.coverage" NAME="views Coverage Results" MODIFIED="1585536813981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django/tulingxueyuan_views/teacher_app" />
     <SUITE FILE_PATH="coverage/oop$ListTest.coverage" NAME="ListTest Coverage Results" MODIFIED="1564469566591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/列表" />
     <SUITE FILE_PATH="coverage/oop$01.coverage" NAME="01 Coverage Results" MODIFIED="1546564181773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/oop$Thread09.coverage" NAME="Thread09 Coverage Results" MODIFIED="1576219609165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多线程" />
@@ -74,6 +90,7 @@
     <SUITE FILE_PATH="coverage/oop$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1564473022094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/函数" />
     <SUITE FILE_PATH="coverage/oop$Thread05.coverage" NAME="Thread05 Coverage Results" MODIFIED="1576547469819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/多线程" />
     <SUITE FILE_PATH="coverage/oop$caesarCipher.coverage" NAME="caesarCipher Coverage Results" MODIFIED="1564120424612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/字符串加密" />
+    <SUITE FILE_PATH="coverage/oop$manage__3_.coverage" NAME="manage (3) Coverage Results" MODIFIED="1585819336299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django/django_tpl" />
     <SUITE FILE_PATH="coverage/oop$LogGen.coverage" NAME="LogGen Coverage Results" MODIFIED="1548033783065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Log" />
     <SUITE FILE_PATH="coverage/oop$v01.coverage" NAME="v01 Coverage Results" MODIFIED="1583386098270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/网络编程" />
     <SUITE FILE_PATH="coverage/oop$InsertVehicle.coverage" NAME="InsertVehicle Coverage Results" MODIFIED="1550212544679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/插数据" />
@@ -104,42 +121,50 @@
     <session id="834061524">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="html" value="13" />
           <entry key="md" value="3" />
-          <entry key="py" value="57" />
+          <entry key="py" value="128" />
           <entry key="pyi" value="1" />
+          <entry key="sqlite3" value="4" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="HTML" value="13" />
           <entry key="Markdown" value="3" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="57" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="128" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="1591" />
-          <entry key="py" value="1124" />
+          <entry key="Python Console" value="16" />
+          <entry key="html" value="663" />
+          <entry key="md" value="11753" />
+          <entry key="py" value="5065" />
+          <entry key="txt" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="1591" />
-          <entry key="Python" value="1124" />
+          <entry key="HTML" value="663" />
+          <entry key="Markdown" value="11753" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="Python" value="5081" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.47" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
     </session>
@@ -173,6 +198,30 @@
         </favorite_root>
         <favorite_root url="file://$PROJECT_DIR$/Django/django_test01.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
       </favorite_root>
+      <favorite_root url="file://$PROJECT_DIR$/Django/tlxy_db" module="oop" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/Django/tlxy_db/tlxy_db" module="oop" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/Django/tlxy_db/tlxy_db/urls.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/Django/tlxy_db/tlxy_db/wsgi.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/Django/tlxy_db/tlxy_db/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/Django/tlxy_db/tlxy_db/settings.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/Django/tlxy_db/relation" module="oop" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/Django/tlxy_db/relation/apps.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/Django/tlxy_db/relation/admin.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/Django/tlxy_db/relation/tests.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/Django/tlxy_db/relation/views.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/Django/tlxy_db/relation/models.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/Django/tlxy_db/relation/migrations" module="oop" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/Django/tlxy_db/relation/migrations/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/Django/tlxy_db/relation/migrations/0001_initial.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/Django/tlxy_db/relation/migrations/0002_teacher.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="file://$PROJECT_DIR$/Django/tlxy_db/relation/migrations/0003_student.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/Django/tlxy_db/relation/__init__.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/Django/tlxy_db/manage.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/Django/tlxy_db/db.sqlite3" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
     </favorites_list>
   </component>
   <component name="FileEditorManager">
@@ -181,8 +230,8 @@
         <entry file="file://$PROJECT_DIR$/Django/django.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="418">
-                <caret line="67" column="48" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="48" />
+              <first_editor relative-caret-position="495">
+                <caret line="584" column="23" lean-forward="true" selection-start-line="584" selection-start-column="23" selection-end-line="584" selection-end-column="23" />
               </first_editor>
               <second_editor />
             </state>
@@ -190,86 +239,93 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan/teacher/admin.py">
+        <entry file="file://$PROJECT_DIR$/Django/django_tpl/django_tpl/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            <state relative-caret-position="408">
+              <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+              <folding>
+                <element signature="e#635#676#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan/teacher/models.py">
+        <entry file="file://$PROJECT_DIR$/Django/django_tpl/mytpl/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan/teacher/apps.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan/teacher/tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            <state relative-caret-position="430">
+              <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+              <folding>
+                <marker date="1585818869940" expanded="true" signature="135:140" ph="..." />
+                <marker date="1585818869940" expanded="true" signature="341:346" ph="..." />
+                <marker date="1585818869940" expanded="true" signature="638:643" ph="..." />
+                <marker date="1585818869940" expanded="true" signature="708:713" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan/tulingxueyuan/urls.py">
+        <entry file="file://$PROJECT_DIR$/Django/django_tpl/templates/five_get.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+            <state relative-caret-position="198">
+              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan/RE.py">
+        <entry file="file://$PROJECT_DIR$/Django/django_tpl/templates/four.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="286">
+              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Lib/re.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="183" column="4" selection-start-line="183" selection-start-column="4" selection-end-line="183" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="7" column="68" lean-forward="true" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan/teacher/views.py">
+        <entry file="file://$PROJECT_DIR$/Django/django_tpl/templates/three.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
               <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
-                <marker date="1585034731499" expanded="true" signature="289:294" ph="..." />
+                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Django/django_tpl/templates/two.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Django/tlxy_db/relation/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+              <folding>
+                <marker date="1585729862064" expanded="true" signature="138:139" ph="..." />
+                <marker date="1585729862064" expanded="true" signature="138:144" ph="..." />
+                <marker date="1585729862064" expanded="true" signature="770:961" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Django/django_tpl/django_tpl/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="46" column="48" lean-forward="true" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -280,6 +336,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -297,33 +354,14 @@
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
     <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Log/LogGen.py" />
-        <option value="$PROJECT_DIR$/网络爬虫/test01.py" />
-        <option value="$PROJECT_DIR$/插数据/InsertVehicle.py" />
-        <option value="$PROJECT_DIR$/打卡/clock.py" />
-        <option value="$PROJECT_DIR$/打卡/Loginpage.py" />
-        <option value="$PROJECT_DIR$/打卡/test1.py" />
-        <option value="$PROJECT_DIR$/打卡/Clock.py" />
-        <option value="$PROJECT_DIR$/数据库/test_oracle.py" />
-        <option value="$PROJECT_DIR$/测试工具/Test_0506/baidu/baidu.py" />
-        <option value="$PROJECT_DIR$/测试工具/Test_0506/dataStructure/pro_json.py" />
-        <option value="$PROJECT_DIR$/测试工具/Test_0506/dataStructure/__init__.py" />
-        <option value="$PROJECT_DIR$/测试工具/Test_0506/dataStructure/vel_cbu_broker_xml.py" />
-        <option value="$PROJECT_DIR$/测试工具/Test_0506/dataStructure/IPM.py" />
-        <option value="$PROJECT_DIR$/多线程/Thread07.py" />
-        <option value="$PROJECT_DIR$/多线程/Thread09.py" />
-        <option value="$PROJECT_DIR$/打卡/LoginPage.py" />
-        <option value="$PROJECT_DIR$/字符串加密/SecretCode.py" />
-        <option value="$PROJECT_DIR$/字符串加密/caesarCipher.py" />
-        <option value="$PROJECT_DIR$/网络爬虫/test.py" />
-        <option value="$PROJECT_DIR$/列表/ListTest.py" />
-        <option value="$PROJECT_DIR$/函数/__init__.py" />
-        <option value="$PROJECT_DIR$/函数/math001.py" />
         <option value="$PROJECT_DIR$/字典/test_dict001.py" />
         <option value="$PROJECT_DIR$/123.py" />
         <option value="$PROJECT_DIR$/多线程/Thread01.py" />
@@ -344,15 +382,37 @@
         <option value="$PROJECT_DIR$/练习/test01.py" />
         <option value="$PROJECT_DIR$/Django框架/django_test01.py" />
         <option value="$PROJECT_DIR$/Django框架/django.md" />
-        <option value="$PROJECT_DIR$/Django/tulingxueyuan/tulingxueyuan/settings.py" />
         <option value="$PROJECT_DIR$/Django/tulingxueyuan/teacher/tests.py" />
-        <option value="$PROJECT_DIR$/Django/tulingxueyuan/teacher/models.py" />
         <option value="$PROJECT_DIR$/Django/tulingxueyuan/teacher/apps.py" />
         <option value="$PROJECT_DIR$/Django/tulingxueyuan/teacher/admin.py" />
-        <option value="$PROJECT_DIR$/Django/tulingxueyuan/teacher/views.py" />
-        <option value="$PROJECT_DIR$/Django/django.md" />
         <option value="$PROJECT_DIR$/Django/tulingxueyuan/RE.py" />
+        <option value="$PROJECT_DIR$/Django/tulingxueyuan/teacher/teacher_urls.py" />
+        <option value="$PROJECT_DIR$/Django/tulingxueyuan/teacher/teacher_url.py" />
+        <option value="$PROJECT_DIR$/Django/tulingxueyuan/teacher/views.py" />
         <option value="$PROJECT_DIR$/Django/tulingxueyuan/tulingxueyuan/urls.py" />
+        <option value="$PROJECT_DIR$/Django/tulingxueyuan/template/for_post.html" />
+        <option value="$PROJECT_DIR$/Django/tulingxueyuan_views/templates/for_post.html" />
+        <option value="$PROJECT_DIR$/Django/tulingxueyuan_views/templates/render.html" />
+        <option value="$PROJECT_DIR$/Django/tulingxueyuan_views/templates/render2.html" />
+        <option value="$PROJECT_DIR$/Django/tulingxueyuan_views/tulingxueyuan_views/urls.py" />
+        <option value="$PROJECT_DIR$/Django/tulingxueyuan_views/templates/404.html" />
+        <option value="$PROJECT_DIR$/Django/tulingxueyuan_views/teacher_app/views.py" />
+        <option value="$PROJECT_DIR$/Django/tulingxueyuan_views/tulingxueyuan_views/settings.py" />
+        <option value="$PROJECT_DIR$/Django/tulingxueyuan_views/tulingxueyuan_views/__init__.py" />
+        <option value="$PROJECT_DIR$/Django/tulingxueyuan/tulingxueyuan/settings.py" />
+        <option value="$PROJECT_DIR$/Django/tulingxueyuan/teacher/models.py" />
+        <option value="$PROJECT_DIR$/Django/tulingxueyuan/teacher/test.py" />
+        <option value="$PROJECT_DIR$/Django/tlxy_db/tlxy_db/settings.py" />
+        <option value="$PROJECT_DIR$/Django/tlxy_db/relation/models.py" />
+        <option value="$PROJECT_DIR$/Django/templates/one.html" />
+        <option value="$PROJECT_DIR$/Django/django_tpl/templates/two.html" />
+        <option value="$PROJECT_DIR$/Django/django_tpl/templates/three.html" />
+        <option value="$PROJECT_DIR$/Django/django_tpl/templates/four.html" />
+        <option value="$PROJECT_DIR$/Django/django.md" />
+        <option value="$PROJECT_DIR$/Django/django_tpl/mytpl/views.py" />
+        <option value="$PROJECT_DIR$/Django/django_tpl/django_tpl/urls.py" />
+        <option value="$PROJECT_DIR$/Django/django_tpl/django_tpl/settings.py" />
+        <option value="$PROJECT_DIR$/Django/django_tpl/templates/five_get.html" />
       </list>
     </option>
   </component>
@@ -363,10 +423,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="269" />
-    <option name="y" value="3" />
-    <option name="width" value="1487" />
-    <option name="height" value="1012" />
+    <option name="x" value="684" />
+    <option name="y" value="5" />
+    <option name="width" value="1557" />
+    <option name="height" value="1015" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -374,12 +434,15 @@
         <expanded-state>
           <State />
           <State>
+            <id>Internationalization</id>
+          </State>
+          <State>
             <id>Python</id>
           </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>Python</id>
+            <id>NonAsciiCharacters</id>
           </State>
         </selected-state>
       </profile-state>
@@ -393,17 +456,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="oop" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -420,10 +472,145 @@
               <item name="oop" type="b2602c69:ProjectViewProjectNode" />
               <item name="oop" type="462c0819:PsiDirectoryNode" />
               <item name="Django" type="462c0819:PsiDirectoryNode" />
+              <item name="django_tpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
+              <item name="Django" type="462c0819:PsiDirectoryNode" />
+              <item name="django_tpl" type="462c0819:PsiDirectoryNode" />
+              <item name="django_tpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
+              <item name="Django" type="462c0819:PsiDirectoryNode" />
+              <item name="django_tpl" type="462c0819:PsiDirectoryNode" />
+              <item name="mytpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
+              <item name="Django" type="462c0819:PsiDirectoryNode" />
+              <item name="django_tpl" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
+              <item name="Django" type="462c0819:PsiDirectoryNode" />
+              <item name="tlxy_db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
+              <item name="Django" type="462c0819:PsiDirectoryNode" />
+              <item name="tlxy_db" type="462c0819:PsiDirectoryNode" />
+              <item name="relation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
+              <item name="Django" type="462c0819:PsiDirectoryNode" />
+              <item name="tulingxueyuan_views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
+              <item name="Django" type="462c0819:PsiDirectoryNode" />
+              <item name="tulingxueyuan_views" type="462c0819:PsiDirectoryNode" />
+              <item name="teacher_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
+              <item name="Django" type="462c0819:PsiDirectoryNode" />
+              <item name="tulingxueyuan_views" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
+              <item name="Django" type="462c0819:PsiDirectoryNode" />
+              <item name="tulingxueyuan_views" type="462c0819:PsiDirectoryNode" />
+              <item name="tulingxueyuan_views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="oop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (BBAWebTest) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="oop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (BBAWebTest) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python36" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (BBAWebTest) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python36" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (BBAWebTest) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python36" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (BBAWebTest) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python36" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
+              <item name="Django" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (BBAWebTest) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python36" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
+              <item name="Django" type="462c0819:PsiDirectoryNode" />
+              <item name="django_tpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (BBAWebTest) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python36" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
+              <item name="Django" type="462c0819:PsiDirectoryNode" />
+              <item name="django_tpl" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (BBAWebTest) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python36" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
+              <item name="Django" type="462c0819:PsiDirectoryNode" />
               <item name="tulingxueyuan" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (BBAWebTest) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python36" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="oop" type="462c0819:PsiDirectoryNode" />
               <item name="Django" type="462c0819:PsiDirectoryNode" />
               <item name="tulingxueyuan" type="462c0819:PsiDirectoryNode" />
@@ -431,45 +618,13 @@
             </path>
             <path>
               <item name="oop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (BBAWebTest) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python36" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="oop" type="462c0819:PsiDirectoryNode" />
               <item name="Django" type="462c0819:PsiDirectoryNode" />
-              <item name="tulingxueyuan" type="462c0819:PsiDirectoryNode" />
-              <item name="tulingxueyuan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oop" type="462c0819:PsiDirectoryNode" />
-              <item name="Excel操作" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="oop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (BBAWebTest) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="oop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (BBAWebTest) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Python36" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (BBAWebTest) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Python36" type="462c0819:PsiDirectoryNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (BBAWebTest) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Python36" type="462c0819:PsiDirectoryNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="oop" type="462c0819:PsiDirectoryNode" />
+              <item name="tulingxueyuan_views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oop" type="b2602c69:ProjectViewProjectNode" />
@@ -479,6 +634,8 @@
               <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="oop" type="462c0819:PsiDirectoryNode" />
               <item name="Django" type="462c0819:PsiDirectoryNode" />
+              <item name="tulingxueyuan_views" type="462c0819:PsiDirectoryNode" />
+              <item name="teacher_app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oop" type="b2602c69:ProjectViewProjectNode" />
@@ -488,7 +645,8 @@
               <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="oop" type="462c0819:PsiDirectoryNode" />
               <item name="Django" type="462c0819:PsiDirectoryNode" />
-              <item name="tulingxueyuan" type="462c0819:PsiDirectoryNode" />
+              <item name="tulingxueyuan_views" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="oop" type="b2602c69:ProjectViewProjectNode" />
@@ -498,8 +656,19 @@
               <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="oop" type="462c0819:PsiDirectoryNode" />
               <item name="Django" type="462c0819:PsiDirectoryNode" />
-              <item name="tulingxueyuan" type="462c0819:PsiDirectoryNode" />
-              <item name="teacher" type="462c0819:PsiDirectoryNode" />
+              <item name="tulingxueyuan_views" type="462c0819:PsiDirectoryNode" />
+              <item name="tulingxueyuan_views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="oop" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
           </expand>
           <select />
@@ -509,6 +678,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="oracle" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="F:/Anaconda/python.exe" />
@@ -523,8 +693,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Python36\workspace\oop\Django\django_tpl" />
+      <recent name="F:\Python36\workspace\oop\Django\tulingxueyuan_views" />
+      <recent name="F:\Python36\workspace\oop\Django\tulingxueyuan_view" />
+      <recent name="F:\Python36\workspace\oop\Django\tulingxueyuan\teacher" />
       <recent name="F:\Python36\workspace\oop\练习" />
-      <recent name="F:\Python36\workspace\oop\插数据" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Python36\workspace\oop\Django\tulingxueyuan_views\templates" />
+      <recent name="F:\Python36\workspace\oop\Django\tulingxueyuan\teacher\migrations" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -539,7 +716,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.manage">
+  <component name="RunManager" selected="Python.manage (3)">
     <configuration name="01" type="PythonConfigurationType" factoryName="Python">
       <module name="oop" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -562,7 +739,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RE" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="manage (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="oop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -570,13 +747,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Django/tulingxueyuan" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Django/tulingxueyuan_views" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Django/tulingxueyuan/RE.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Django/tulingxueyuan_views/manage.py" />
+      <option name="PARAMETERS" value="makemigrations" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -584,7 +761,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="census2010" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="manage (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="oop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -592,13 +769,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Excel操作" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Django/tlxy_db" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Excel操作/census2010.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Django/tlxy_db/manage.py" />
+      <option name="PARAMETERS" value="migrate" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -606,7 +783,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="django_test01 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="manage (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="oop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -614,35 +791,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Django" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Django/django_tpl" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Django/django_test01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="django_test01" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="oop" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Django框架" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Django框架/django_test01.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Django/django_tpl/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -664,7 +819,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Django/tulingxueyuan/manage.py" />
-      <option name="PARAMETERS" value="runserver" />
+      <option name="PARAMETERS" value="migrate" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="oop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Django/tulingxueyuan/teacher" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Django/tulingxueyuan/teacher/test.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -674,19 +851,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.01" />
-      <item itemvalue="Python.django_test01" />
       <item itemvalue="Python.manage" />
-      <item itemvalue="Python.django_test01 (1)" />
-      <item itemvalue="Python.census2010" />
-      <item itemvalue="Python.RE" />
+      <item itemvalue="Python.manage (1)" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.manage (2)" />
+      <item itemvalue="Python.manage (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.manage (3)" />
+        <item itemvalue="Python.manage (2)" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.manage" />
-        <item itemvalue="Python.RE" />
-        <item itemvalue="Python.census2010" />
-        <item itemvalue="Python.django_test01 (1)" />
-        <item itemvalue="Python.django_test01" />
+        <item itemvalue="Python.manage (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -869,7 +1046,70 @@
       <option name="project" value="LOCAL" />
       <updated>1585199047580</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="test">
+      <created>1585199730608</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1585199730608</updated>
+    </task>
+    <task id="LOCAL-00026" summary="test">
+      <created>1585199837076</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1585199837076</updated>
+    </task>
+    <task id="LOCAL-00027" summary="test">
+      <created>1585199980921</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1585199980921</updated>
+    </task>
+    <task id="LOCAL-00028" summary="0326">
+      <created>1585200066436</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1585200066436</updated>
+    </task>
+    <task id="LOCAL-00029" summary="0330&#10;0330">
+      <created>1585558588229</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1585558588229</updated>
+    </task>
+    <task id="LOCAL-00030" summary="0330&#10;0330ALL">
+      <created>1585558630213</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1585558630213</updated>
+    </task>
+    <task id="LOCAL-00031" summary="0330&#10;0330ALL">
+      <created>1585558693919</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1585558693919</updated>
+    </task>
+    <task id="LOCAL-00032" summary="0330&#10;0330ALL">
+      <created>1585559112710</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1585559112710</updated>
+    </task>
+    <task id="LOCAL-00033" summary="0330&#10;0330ALL">
+      <created>1585811425745</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1585811425745</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -914,36 +1154,47 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="269" y="3" width="1487" height="1012" extended-state="0" />
+    <frame x="684" y="5" width="1557" height="1015" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6457565" visible="true" weight="0.23475823" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6457565" visible="true" weight="0.18169673" />
       <window_info id="Structure" order="1" sideWeight="0.35424355" side_tool="true" weight="0.20605613" />
       <window_info id="Favorites" order="2" sideWeight="0.2990991" side_tool="true" weight="0.23802613" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49936062" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6720588" weight="0.3120729" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49716312" weight="0.3470982" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.66265863" visible="true" weight="0.30533484" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.77031016" weight="0.36799064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49960908" weight="0.32992035" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.6148492" visible="true" weight="0.32346243" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.65007216" weight="0.31264368" />
       <window_info anchor="bottom" id="Database Changes" order="9" sideWeight="0.4987874" weight="0.3270142" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.32794118" side_tool="true" weight="0.1953602" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.6706056" weight="0.48379052" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49854863" weight="0.32889965" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.33734134" side_tool="true" visible="true" weight="0.30533484" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.66041815" weight="0.35632184" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4978693" weight="0.32821077" />
       <window_info anchor="bottom" id="Database Console" order="13" sideWeight="0.49861303" weight="0.38452238" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49936062" weight="0.32915717" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.19552238" />
-      <window_info anchor="right" id="Database" order="4" sideWeight="0.4973638" visible="true" weight="0.16468115" />
+      <window_info anchor="right" id="Database" order="4" sideWeight="0.4973638" visible="true" weight="0.10287241" />
       <window_info anchor="right" id="Coverage" order="5" sideWeight="0.5026362" side_tool="true" weight="0.1591063" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -977,7 +1228,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="0326" />
+    <MESSAGE value="0330&#10;0330" />
+    <MESSAGE value="0330&#10;0330ALL" />
+    <option name="LAST_COMMIT_MESSAGE" value="0330&#10;0330ALL" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1041,242 +1295,200 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Excel操作/read01.py">
+    <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan_views/templates/render2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1570">
-          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        <state relative-caret-position="198">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1291105237/builtins.py">
+    <entry file="file://$PROJECT_DIR$/../../Scripts/Django-2.1.4/tests/template_tests/templatetags/custom.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="2844" column="8" selection-start-line="2844" selection-start-column="8" selection-end-line="2844" selection-end-column="8" />
+        <state relative-caret-position="395">
+          <caret line="197" column="30" lean-forward="true" selection-start-line="197" selection-start-column="30" selection-end-line="197" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Excel操作/readCensusExcel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="55" column="39" lean-forward="true" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan_views/templates/render3.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/列表/ListTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1240" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/字符串加密/caesarCipher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/字符串加密/SecretCode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="28" column="54" lean-forward="true" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络爬虫/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络编程/TCP01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/网络编程/TCP02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/socket.pyi">
+    <entry file="file://$PROJECT_DIR$/../../Lib/site-packages/Django-2.1.8-py3.6.egg/django/utils/decorators.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
-          <caret line="552" column="16" selection-start-line="552" selection-start-column="8" selection-end-line="552" selection-end-column="16" />
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/网络编程/v01.py">
+    <entry file="file://$PROJECT_DIR$/../../Lib/site-packages/Django-2.1.8-py3.6.egg/django/template/backends/django.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1078">
-          <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+        <state relative-caret-position="205">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/网络编程/v02.py">
+    <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan_views/templates/404.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        <state relative-caret-position="154">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/自动化函数/geturl.py">
+    <entry file="file://$PROJECT_DIR$/../../Lib/site-packages/Django-2.1.8-py3.6.egg/django/views/defaults.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../Lib/site-packages/PyMySQL-0.9.3-py3.6.egg!/pymysql/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2486">
+          <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+          <folding>
+            <element signature="e#1123#1133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan_views/tulingxueyuan_views/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan/db.sqlite3">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Lib/site-packages/Django-2.1.8-py3.6.egg/django/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan/tulingxueyuan/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="e#671#712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan/teacher/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan/tulingxueyuan/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan/teacher/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/tlxy_db/tlxy_db/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan/teacher/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/进程/Process01.py">
+    <entry file="file://$PROJECT_DIR$/Django/tlxy_db/relation/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/进程/Process02.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/进程/Process03.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/练习/test_01.py">
+    <entry file="file://$PROJECT_DIR$/Django/tlxy_db/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/123.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getimg.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/re001.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/测试工具/Test_0506/dataStructure/test_001.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/tulignxueyuan/manage.py" />
-    <entry file="file://$PROJECT_DIR$/Django/tulignxueyuan/tulignxueyuan/wsgi.py" />
-    <entry file="file://$PROJECT_DIR$/Django/tulignxueyuan/tulignxueyuan/settings.py" />
-    <entry file="file://$PROJECT_DIR$/Django/tulignxueyuan/tulignxueyuan/urls.py" />
-    <entry file="file://$PROJECT_DIR$/测试工具/Test_0506/dataStructure/pro_json.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/测试工具/Test_0506/dataStructure/test_002.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/测试工具/Test_0506/dataStructure/test_003.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/练习/test01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan/tulingxueyuan/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/django_test01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Excel操作/census2010.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Lib/site-packages/Django-2.1.8-py3.6.egg/django/core/checks/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Lib/site-packages/Django-2.1.4-py3.6.egg/django/shortcuts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan/tulingxueyuan/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="19" column="71" lean-forward="true" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Lib/site-packages/Django-2.1.8-py3.6.egg/django/contrib/admin/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Lib/site-packages/Django-2.1.8-py3.6.egg/django/contrib/admin/sites.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="533" selection-start-line="533" selection-end-line="533" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Lib/site-packages/Django-2.1.8-py3.6.egg/django/http/response.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="278" column="6" selection-start-line="278" selection-start-column="6" selection-end-line="278" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Lib/site-packages/Django-2.1.8-py3.6.egg/django/conf/urls/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="330">
+          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan/teacher/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        <state relative-caret-position="88">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan/teacher/admin.py">
+    <entry file="file://$PROJECT_DIR$/Django/tlxy_db/db.sqlite3">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        <state relative-caret-position="154">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan/teacher/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="e#16#51#0" expanded="true" />
+            <marker date="1585292285900" expanded="true" signature="321:326" ph="..." />
+            <marker date="1585292285900" expanded="true" signature="525:530" ph="..." />
+            <marker date="1585292285900" expanded="true" signature="617:622" ph="..." />
+            <marker date="1585292285900" expanded="true" signature="690:695" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/tlxy_db/relation/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Lib/site-packages/Django-2.1.8-py3.6.egg/django/db/models/fields/related.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="781" column="8" selection-start-line="781" selection-start-column="8" selection-end-line="781" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/tlxy_db/relation/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan/teacher/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        <state relative-caret-position="421">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding>
+            <marker date="1585642929624" expanded="true" signature="101:114" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/tlxy_db/relation/migrations/0003_student.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1287,52 +1499,170 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Django/tlxy_db/relation/migrations/0002_teacher.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/django_tpl/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan_views/tulingxueyuan_views/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan_views/templates/render.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan_views/templates/for_post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/django_tpl/templates/one.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan_views/tulingxueyuan_views/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan_views/teacher_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="93" column="20" lean-forward="true" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
+          <folding>
+            <element signature="e#15#28#0" expanded="true" />
+            <marker date="1585551772627" expanded="true" signature="330:335" ph="..." />
+            <marker date="1585551772627" expanded="true" signature="659:664" ph="..." />
+            <marker date="1585551772627" expanded="true" signature="1339:1344" ph="..." />
+            <marker date="1585551772627" expanded="true" signature="1901:1906" ph="..." />
+            <marker date="1585551772627" expanded="true" signature="2050:2055" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan_views/teacher_app/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan_views/teacher_app/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/django_tpl/mytpl/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Lib/site-packages/Django-2.1.8-py3.6.egg/django/shortcuts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="30" column="42" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/tlxy_db/relation/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+          <folding>
+            <marker date="1585729862064" expanded="true" signature="138:139" ph="..." />
+            <marker date="1585729862064" expanded="true" signature="138:144" ph="..." />
+            <marker date="1585729862064" expanded="true" signature="770:961" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/django_tpl/templates/two.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/django_tpl/templates/three.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Django/django.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="418">
-            <caret line="67" column="48" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="48" />
+          <first_editor relative-caret-position="495">
+            <caret line="584" column="23" lean-forward="true" selection-start-line="584" selection-start-column="23" selection-end-line="584" selection-end-column="23" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Lib/re.py">
+    <entry file="file://$PROJECT_DIR$/Django/django_tpl/templates/four.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="183" column="4" selection-start-line="183" selection-start-column="4" selection-end-line="183" selection-end-column="4" />
+        <state relative-caret-position="286">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan/RE.py">
+    <entry file="file://$PROJECT_DIR$/Django/django_tpl/django_tpl/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="418">
+          <caret line="46" column="48" lean-forward="true" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan/manage.py">
+    <entry file="file://$PROJECT_DIR$/Django/django_tpl/django_tpl/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="68" lean-forward="true" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan/teacher/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="408">
+          <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1585034731499" expanded="true" signature="289:294" ph="..." />
+            <element signature="e#635#676#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Django/tulingxueyuan/tulingxueyuan/urls.py">
+    <entry file="file://$PROJECT_DIR$/Django/django_tpl/mytpl/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        <state relative-caret-position="430">
+          <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+          <folding>
+            <marker date="1585818869940" expanded="true" signature="135:140" ph="..." />
+            <marker date="1585818869940" expanded="true" signature="341:346" ph="..." />
+            <marker date="1585818869940" expanded="true" signature="638:643" ph="..." />
+            <marker date="1585818869940" expanded="true" signature="708:713" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/django_tpl/templates/five_get.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
